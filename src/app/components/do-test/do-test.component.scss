@@ -1,0 +1,32 @@
+.do-test-area {
+  padding: 10px;
+}
+
+.incorrect {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.btn-test {
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.answer {
+  font-size: 20px;
+}
+
+.question-image {
+  max-height: 300px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 23px;
+  }
+  .question-image {
+    max-height: 200px;
+  }
+}

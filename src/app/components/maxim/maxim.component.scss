@@ -1,0 +1,57 @@
+/* center the blockquote in the page */
+.blockquote-wrapper {
+  display: flex;
+  padding: 0 20px;
+}
+
+/* Blockquote main style */
+.blockquote {
+  position: relative;
+  max-width: 300px;
+  margin: 20px auto;
+  align-self: center;
+}
+
+/* Blockquote header */
+.blockquote h5 {
+  position: relative; /* for pseudos */
+  color: gray;
+  margin: 0;
+  border: 1px solid #fff;
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 15px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Blockquote right double quotes */
+.blockquote h5:after {
+  content: "";
+  position: absolute;
+  border: 1px solid gray;
+  border-radius: 0 50px 0 0;
+  width: 60px;
+  height: 60px;
+  bottom: -62px;
+  left: 50px;
+  border-bottom: none;
+  border-left: none;
+  z-index: 3;
+}
+
+/* Blockquote subheader */
+.blockquote h6 {
+  position: relative;
+  color: gray; //#e74848
+  font-weight: 400;
+  margin: 0;
+  padding-top: 15px;
+  z-index: 1;
+  margin-left: 150px;
+  padding-left: 12px;
+}
+
+.blockquote h4:first-letter {
+  margin-left: -12px;
+}
