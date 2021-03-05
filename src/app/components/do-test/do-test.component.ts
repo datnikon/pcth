@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { QuestionAnswer } from 'src/app/models/question.model';
+import { Answer, QuestionAnswer } from 'src/app/models/question.model';
 @Component({
   selector: 'app-do-test',
   templateUrl: './do-test.component.html',
@@ -13,6 +13,8 @@ export class DoTestComponent {
   public isShowResult = false;
   public isSelected = false;
   public isShowAllResult = false;
+
+  public answers: Answer[] = [];
 
   handleChange(isCorrect: any): void {
     this.isSelected = true;
@@ -43,6 +45,7 @@ export class DoTestComponent {
 
   nextQuestion(): void {
     this.questionNumber++;
+    this.answers = this.shuffleAnswers(this.questions[this.questionNumber].answers);
     this.isSelected = false;
     this.isShowResult = false;
   }
@@ -53,5 +56,16 @@ export class DoTestComponent {
     this.isShowResult = false;
     this.isSelected = false;
     this.isShowAllResult = false;
+  }
+
+  public shuffleAnswers(a: Answer[]): Answer[] {
+    let j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      x = a[i];
+      a[i] = a[j];
+      a[j] = x;
+    }
+    return a;
   }
 }

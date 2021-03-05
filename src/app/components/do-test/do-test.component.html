@@ -12,7 +12,7 @@
     <img *ngIf="questions[questionNumber].img" src="{{questions[questionNumber].img}}" alt="hình ảnh câu hỏi"
         class="question-image">
     <h1>{{questionNumber + 1}} {{questions[questionNumber].title}}</h1>
-    <div class="answer" *ngFor="let item of questions[questionNumber].answers; index as i">
+    <div class="answer" *ngFor="let item of answers; index as i">
         <input type="radio" id="{{i}}" name="selectAnswer" [disabled]="isShowResult"
             (change)="handleChange(item.isCorrect)"> <label style="margin-left: 10px;"
             for="{{i}}">{{item.title}}</label>
