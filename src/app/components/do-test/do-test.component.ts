@@ -1,11 +1,12 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Answer, QuestionAnswer } from 'src/app/models/question.model';
 @Component({
   selector: 'app-do-test',
   templateUrl: './do-test.component.html',
   styleUrls: ['./do-test.component.scss']
 })
-export class DoTestComponent {
+export class DoTestComponent implements OnInit {
+
   @Input() public questions: QuestionAnswer[] = [];
   public questionNumber = 0;
   public correctNumber = 0;
@@ -15,6 +16,10 @@ export class DoTestComponent {
   public isShowAllResult = false;
 
   public answers: Answer[] = [];
+
+  ngOnInit(): void {
+    this.answers = this.shuffleAnswers(this.questions[this.questionNumber].answers);
+  }
 
   handleChange(isCorrect: any): void {
     this.isSelected = true;
@@ -68,4 +73,5 @@ export class DoTestComponent {
     }
     return a;
   }
+
 }
