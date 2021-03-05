@@ -53,7 +53,7 @@ export const coffeeQuestions: QuestionAnswer[] = [
     {
         title: 'Vị của hạt cà phê Arabica là gì?',
         answers: [{
-            title: 'Đằng, chua',
+            title: 'Đắng, chua',
         },
         {
             title: 'Chua hậu ngọt',
@@ -65,22 +65,37 @@ export const coffeeQuestions: QuestionAnswer[] = [
         {
             title: 'Chát'
         }]
-    }
-    ,
+    },
     {
         title: 'Nồng độ cafein trong hạt cà phê Arabica là bao nhiêu?',
         answers: [{
-            title: '0.5 -> 1.5',
+            title: '0.5 -> 1.5%',
         },
         {
-            title: '0.6 -> 1.5',
+            title: '0.6 -> 1.5%',
         },
         {
-            title: '0.7 -> 1.4',
+            title: '0.7 -> 1.4%',
         },
         {
-            title: '0.9 -> 1.4',
+            title: '0.9 -> 1.4%',
             isCorrect: true
+        }]
+    },
+    {
+        title: 'Cà phê Arabica được người dân gọi là gì?',
+        answers: [{
+            title: 'Cà phê chè',
+            isCorrect: true
+        },
+        {
+            title: 'Cà phê mít',
+        },
+        {
+            title: 'Cà phê vối',
+        },
+        {
+            title: 'Cà phê ổi',
         }]
     },
     {
@@ -98,7 +113,106 @@ export const coffeeQuestions: QuestionAnswer[] = [
             title: '>600m',
             isCorrect: true
         }]
-    }
+    },
+    {
+        title: 'Đặc điểm của hạt cà phê Robusta là gì?',
+        answers: [
+            {
+                title: 'Hạt tròn, nhân cong',
+            },
+            {
+                title: 'Hạt tròn, nhân thẳng',
+                isCorrect: true
+            },
+            {
+                title: 'Hạt dài, nhân thẳng',
+            },
+            {
+                title: 'Hạt dài, nhân công'
+            }
+        ]
+    },
+    {
+        title: 'Nồng độ cafein trong hạt cà phê Robusta là bao nhiêu?',
+        answers: [{
+            title: '1.5 -> 1.8%',
+        },
+        {
+            title: '1.6 -> 2.5%',
+        },
+        {
+            title: '1.7 -> 3.4%',
+        },
+        {
+            title: '1.8 -> 4%',
+            isCorrect: true
+        }]
+    },
+    {
+        title: 'Hạt cà phê Robusta thích hợp trồng ở độ cao bao nhiêu?',
+        answers: [
+            {
+                title: '<600m',
+                isCorrect: true
+            },
+            {
+                title: '>700m',
+            },
+            {
+                title: '>600m',
+            },
+            {
+                title: '<700m',
+            }]
+    },
+    {
+        title: 'Cà phê Robusta được người dân gọi là gì?',
+        answers: [{
+            title: 'Cà phê chè',
+        },
+        {
+            title: 'Cà phê mít',
+        },
+        {
+            title: 'Cà phê vối',
+            isCorrect: true
+        },
+        {
+            title: 'Cà phê ổi',
+        }]
+    },
+    {
+        title: 'Câu nào đúng khi nói về cà phê Cherry?',
+        answers: [{
+            title: 'Năng suất cao, chống sâu bọ tốt',
+            isCorrect: true
+        },
+        {
+            title: 'Năng suât thấp, chống sâu bọ kém',
+        },
+        {
+            title: 'Năng suất cao, chống sâu bọ kém',
+        },
+        {
+            title: 'Năng suât thấp, chống sâu bọ cao',
+        }]
+    },
+    {
+        title: 'Cà phê Cherry được người dân gọi là gì?',
+        answers: [{
+            title: 'Cà phê chè',
+        },
+        {
+            title: 'Cà phê mít',
+            isCorrect: true
+        },
+        {
+            title: 'Cà phê vối',
+        },
+        {
+            title: 'Cà phê ổi',
+        }]
+    },
 ];
 export const glassQuestion: QuestionAnswer[] = [
     {
@@ -466,5 +580,79 @@ export const toolQuestions: QuestionAnswer[] = [
             title: 'Ice scoop'
         }],
         img: 'data:image/jpeg;base64,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'
+    },
+    {
+        title: 'Tên dụng cụ này là gì?',
+        answers: [{
+            title: 'Mesuring spoon',
+        },
+        {
+            title: 'Shaker Standar',
+            isCorrect: true
+        },
+        {
+            title: 'Shaker Boston',
+        },
+        {
+            title: 'Ice scoop'
+        }],
+        img: 'https://bar-times-store.tokyo/media/catalog/product/cache/1/image/767x767/9df78eab33525d08d6e5fb8d27136e95/0/1/010.jpg'
+    },
+    {
+        title: 'Tên dụng cụ này là gì?',
+        answers: [
+            {
+                title: 'Shaker Boston',
+                isCorrect: true
+            },
+            {
+                title: 'Mesuring spoon',
+            },
+            {
+                title: 'Shaker Standar',
+            },
+
+            {
+                title: 'Ice scoop'
+            }],
+        img: 'https://vinumdesign.com/assets/uploads/2017/01/crafthouse-boston-shaker-525x700.jpg'
+    },
+    {
+        title: 'Tên dụng cụ này là gì?',
+        answers: [
+            {
+                title: 'Shaker Boston',
+            },
+            {
+                title: 'Mesuring spoon',
+            },
+            {
+                title: 'Bình đựng sauce',
+            },
+
+            {
+                title: 'Bình xịt kem',
+                isCorrect: true
+            }],
+        img: 'https://newtec.vn/wp-content/uploads/2018/10/B%C3%ACnh-x%E1%BB%8Bt-kem-t%C6%B0%C6%A1i-MOSA-1.jpg'
+    },
+    {
+        title: 'Tên dụng cụ này là gì?',
+        answers: [
+            {
+                title: 'Shaker Boston',
+            },
+            {
+                title: 'Mesuring spoon',
+            },
+            {
+                title: 'Stirrer',
+            },
+
+            {
+                title: 'Icream Scoop',
+                isCorrect: true
+            }],
+        img: 'https://images-na.ssl-images-amazon.com/images/I/51LAbYp-M5L._AC_SX522_.jpg'
     }
 ];

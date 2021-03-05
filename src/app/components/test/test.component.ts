@@ -8,7 +8,6 @@ import { QuestionAnswer } from 'src/app/models/question.model';
   styleUrls: ['./test.component.scss']
 })
 export class TestComponent implements OnInit {
-
   constructor(private route: ActivatedRoute) { }
   public questions: QuestionAnswer[] = [];
 
@@ -19,14 +18,25 @@ export class TestComponent implements OnInit {
           this.questions = coffeeQuestions;
           break;
         case 'glass':
-          this.questions = glassQuestion;
+          this.questions = this.shuffleArray(glassQuestion);
           break;
         case 'tool':
-          this.questions = toolQuestions;
+          this.questions = this.shuffleArray(toolQuestions);
           break;
         default:
           this.questions = coffeeQuestions;
       }
     });
+  }
+
+  public shuffleArray(a: QuestionAnswer[]): QuestionAnswer[] {
+    let j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1));
+      x = a[i];
+      a[i] = a[j];
+      a[j] = x;
+    }
+    return a;
   }
 }
