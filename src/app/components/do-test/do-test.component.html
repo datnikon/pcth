@@ -1,10 +1,12 @@
 <div *ngIf="isShowAllResult">
-    <h1 class="wow" *ngIf="correctNumber == questions.length">🎈🎈 Quá tuyệt vời 🎈🎈</h1>
-    <h1 class="number-correct">{{correctNumber}} / {{questions.length}}</h1>
-    <button *ngIf="correctNumber < questions.length" class="btn btn-test" (click)="reset()">Làm lại</button>
-    <a class="link-with-button" routerLink="/" routerLinkActive="router-link-active">
-        <button *ngIf="correctNumber == questions.length" class="btn btn-test">Chọn bài khác</button>
-    </a>
+    <h1 class="txt-center" *ngIf="correctNumber == questions.length">🎈🎈 Quá tuyệt vời 🎈🎈</h1>
+    <h1 class="txt-center">{{correctNumber}} / {{questions.length}}</h1>
+    <div class="action">
+        <button *ngIf="correctNumber < questions.length" class="btn btn-test" (click)="reset()">Làm lại</button>
+        <a class="link-with-button" routerLink="/" routerLinkActive="router-link-active">
+            <button class="btn btn-test">Trang chủ</button>
+        </a>
+    </div>
 </div>
 <div *ngIf="!isShowAllResult" class="do-test-area">
     <img *ngIf="questions[questionNumber].img" src="{{questions[questionNumber].img}}" alt="hình ảnh câu hỏi"

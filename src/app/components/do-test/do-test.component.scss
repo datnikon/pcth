@@ -1,3 +1,7 @@
+p {
+  font-size: 22px;
+}
+
 .do-test-area {
   padding: 10px;
 }
@@ -12,27 +16,31 @@
 
 .btn-test {
   padding: 5px 10px;
-  margin-top: 10px;
+  margin: 5px;
 }
 .answer {
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .question-image {
   max-height: 300px;
 }
 
-.wow {
+.txt-center {
   text-align: center;
 }
-.number-correct {
-  text-align: center;
+
+.action {
+  display: flex;
+  justify-content: space-around;
 }
 
 .link-with-button {
   display: flex;
   justify-content: center;
 }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 23px;
