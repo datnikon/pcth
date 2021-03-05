@@ -1,22 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
-
-export interface QuestionAnswer {
-  title: string;
-  answers: Answer[];
-  img?: string;
-}
-
-export interface Answer {
-  title: string;
-  isCorrect?: boolean;
-}
-
+import { Component, Input } from '@angular/core';
+import { QuestionAnswer } from 'src/app/models/question.model';
 @Component({
   selector: 'app-do-test',
   templateUrl: './do-test.component.html',
   styleUrls: ['./do-test.component.scss']
 })
-export class DoTestComponent implements OnInit {
+export class DoTestComponent {
   @Input() public questions: QuestionAnswer[] = [];
   public questionNumber = 0;
   public correctNumber = 0;
@@ -24,10 +13,6 @@ export class DoTestComponent implements OnInit {
   public isShowResult = false;
   public isSelected = false;
   public isShowAllResult = false;
-
-
-  ngOnInit(): void {
-  }
 
   handleChange(isCorrect: any): void {
     this.isSelected = true;
@@ -69,6 +54,4 @@ export class DoTestComponent implements OnInit {
     this.isSelected = false;
     this.isShowAllResult = false;
   }
-
-
 }
