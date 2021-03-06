@@ -1,18 +1,23 @@
 .home-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: calc(100vh - 80px);
-  .course-select {
-    min-width: 100%;
     display: flex;
     justify-content: space-around;
-    flex-flow: wrap;
-  }
-  .chose-test {
-    text-align: center;
-  }
-  .btn-test-course {
-    margin: 10px;
-  }
+    align-items: center;
+    min-height: calc(100vh - 80px);
+    .course-select {
+        min-width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+    .chose-test {
+        text-align: center;
+    }
+    .btn-test-course {
+        margin: 10px;
+    }
+    .update-infor {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
 }

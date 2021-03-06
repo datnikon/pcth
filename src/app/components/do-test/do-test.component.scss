@@ -1,51 +1,56 @@
 p {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 .do-test-area {
-  padding: 10px;
+    padding: 10px;
 }
 
 .incorrect {
-  color: red;
+    color: red;
 }
 
 .success {
-  color: green;
+    color: green;
 }
 
 .btn-test {
-  padding: 5px 10px;
-  margin: 5px;
+    padding: 5px 10px;
+    margin: 5px;
 }
+
 .answer {
-  font-size: 20px;
-  margin-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .question-image {
-  max-height: 300px;
+    max-height: 300px;
 }
 
 .txt-center {
-  text-align: center;
+    text-align: center;
 }
 
 .action {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .link-with-button {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-exit {
+    background-color: gray;
 }
 
 @media (max-width: 768px) {
-  h1 {
-    font-size: 23px;
-  }
-  .question-image {
-    max-height: 200px;
-  }
+    h1 {
+        font-size: 23px;
+    }
+    .question-image {
+        max-height: 200px;
+    }
 }

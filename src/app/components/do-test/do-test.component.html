@@ -9,23 +9,22 @@
     </div>
 </div>
 <div *ngIf="!isShowAllResult" class="do-test-area">
-    <img *ngIf="questions[questionNumber].img" src="{{questions[questionNumber].img}}" alt="hình ảnh câu hỏi"
-        class="question-image">
+    <img *ngIf="questions[questionNumber].img" src="{{questions[questionNumber].img}}" alt="hình ảnh câu hỏi" class="question-image">
     <h1>{{questionNumber + 1}} {{questions[questionNumber].title}}</h1>
     <div class="answer" *ngFor="let item of answers; index as i">
-        <input type="radio" id="{{i}}" name="selectAnswer" [disabled]="isShowResult"
-            (change)="handleChange(item.isCorrect)"> <label style="margin-left: 10px;"
-            for="{{i}}">{{item.title}}</label>
+        <input type="radio" id="{{i}}" name="selectAnswer" [disabled]="isShowResult" (change)="handleChange(item.isCorrect)"> <label style="margin-left: 10px;" for="{{i}}">{{item.title}}</label>
     </div>
     <p *ngIf="isShowResult" [ngClass]="{success: isCorrect}" class="incorrect">
         {{ isCorrect ? 'Tuyệt vời, trả lời đúng rồi nè' : 'Sai rồi nè, cố gắng học thêm nha' }}
     </p>
-    <button *ngIf="canShowCheck()" class="btn btn-test" (click)="doCheck()"
-        [disabled]="!isSelected && !isShowResult">Kiểm tra</button>
+    <button *ngIf="canShowCheck()" class="btn btn-test" (click)="doCheck()" [disabled]="!isSelected && !isShowResult">Kiểm tra</button>
     <button *ngIf="canShowNextQuestion()" class="btn btn-test" (click)="nextQuestion()">Câu tiếp theo</button>
-    <button *ngIf="canShowViewResult()" class="btn btn-test" (click)="showResult()"
-        [disabled]="!isSelected && !isShowResult">Xem
+    <button *ngIf="canShowViewResult()" class="btn btn-test" (click)="showResult()" [disabled]="!isSelected && !isShowResult">Xem
         kết quả</button>
+    <a class="link-with-button" routerLink="/" routerLinkActive="router-link-active">
+        <button class="btn btn-test btn-exit">Thoát</button>
+    </a>
+
     <app-maxim [index]="questionNumber"></app-maxim>
 
 </div>

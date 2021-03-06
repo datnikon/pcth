@@ -2,6 +2,22 @@ import { QuestionAnswer } from '../models/question.model';
 
 export const coffeeQuestions: QuestionAnswer[] = [
     {
+        title: 'Ai là người phát hiện ra hạt cà phê?',
+        answers: [{
+            title: 'Chàng trai Kaldi',
+            isCorrect: true
+        },
+        {
+            title: 'Chàng trai Kaffa'
+        },
+        {
+            title: 'Chàng trai Kaffan'
+        },
+        {
+            title: 'Chàng trai Kafani'
+        }]
+    },
+    {
         title: 'Hạt cà phê được phát hiện vào năm nào?',
         answers: [{
             title: '1671',
@@ -213,6 +229,97 @@ export const coffeeQuestions: QuestionAnswer[] = [
             title: 'Cà phê ổi',
         }]
     },
+    {
+        title: 'Ai là người mang hạt cà phê vào trồng ở Việt Nam đầu tiên?',
+        answers: [{
+            title: 'Các vị tu sĩ người Pháp',
+            isCorrect: true
+        },
+        {
+            title: 'Các vị tu sĩ người Anh',
+        },
+        {
+            title: 'Các vị tu sĩ người Ấn Độ',
+        },
+        {
+            title: 'Các vị tu sĩ người Nhật',
+        }]
+    },
+    {
+        title: 'Hạt cà phê đầu tiên được trồng ở Việt Nam là hạt nào?',
+        answers: [{
+            title: 'Arabica',
+            isCorrect: true
+        },
+        {
+            title: 'Robusta',
+        },
+        {
+            title: 'Cherry',
+        }]
+    },
+    {
+        title: 'Hạt cà phê Robusta được trồng ở Việt Nam vào năm nào?',
+        answers: [{
+            title: '1908',
+            isCorrect: true
+        },
+        {
+            title: '1907',
+        },
+        {
+            title: '1857',
+        },
+        {
+            title: '1867',
+        }]
+    },
+    {
+        title: 'Hạt cà phê nào thường dùng để trộn với các hạt cà phê khác?',
+        answers: [{
+            title: 'Hạt cà phê cherry',
+            isCorrect: true
+        },
+        {
+            title: 'Hat cà phê Arabica',
+        },
+        {
+            title: 'Hat Robusta',
+        }]
+    },
+    {
+        title: 'Hạt cà phê Được phổ biến ở Việt Nam vào thời điểm nào?',
+        answers: [{
+            title: 'Năm 1996 -> 2000',
+            isCorrect: true
+        },
+        {
+            title: 'Năm 1990 -> 1996',
+        },
+        {
+            title: 'Năm 1890 -> 1900',
+        },
+        {
+            title: 'Năm 1870 -> 1880',
+        }]
+    }
+    ,
+    {
+        title: 'Hạt cà phê Robusta được trồng nhiều ở đâu?',
+        answers: [{
+            title: 'Kontum - Đắk Lắk',
+            isCorrect: true
+        },
+        {
+            title: 'Kontum - Lâm Đồng',
+        },
+        {
+            title: 'Hà Nam - Cầu Đất',
+        },
+        {
+            title: 'Đắk Lawsk - Hà Nam',
+        }]
+    }
 ];
 export const glassQuestion: QuestionAnswer[] = [
     {
