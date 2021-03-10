@@ -18,6 +18,14 @@ const routes: Routes = [
     component: TestComponent
   },
   {
+    path: 'test/syrup',
+    component: TestComponent
+  },
+  {
+    path: 'liqueur-spirit',
+    component: TestComponent
+  },
+  {
     path: '**',
     component: PageNotFoundComponent
   }

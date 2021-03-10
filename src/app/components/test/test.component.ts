@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { coffeeQuestions, glassQuestion, toolQuestions } from 'src/app/data/question';
+import { coffeeQuestions, glassQuestion, toolQuestions, syrupQuestions, liqueurSpirit } from 'src/app/data/question';
 import { QuestionAnswer } from 'src/app/models/question.model';
 @Component({
   selector: 'app-test',
@@ -22,6 +22,12 @@ export class TestComponent implements OnInit {
           break;
         case 'tool':
           this.questions = this.shuffleArray(toolQuestions);
+          break;
+        case 'syrup':
+          this.questions = syrupQuestions;
+          break;
+        case 'liqueur-spirit':
+          this.questions = liqueurSpirit;
           break;
         default:
           this.questions = coffeeQuestions;

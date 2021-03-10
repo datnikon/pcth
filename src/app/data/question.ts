@@ -942,3 +942,272 @@ export const toolQuestions: QuestionAnswer[] = [
         img: 'https://images-na.ssl-images-amazon.com/images/I/51LAbYp-M5L._AC_SX522_.jpg'
     }
 ];
+
+export const syrupQuestions: QuestionAnswer[] = [
+    {
+        title: 'Syrup là gì?',
+        answers: [{
+            title: 'Là chất lỏng đậm đặc được làm từ đường, nước và các chất phụ gia khác, dùng làm nguyên liệu pha chế, có nhiều hương vị',
+            isCorrect: true
+        },
+        {
+            title: 'Là chất lỏng được lên men từ trái cây'
+        },
+        {
+            title: 'Là chất lỏng đậm đặc được làm từ nước, rượu, trái cây các chất phụ gia khác, '
+        }]
+    },
+    {
+        title: 'Những loại Syrup nào sau đây là nổi tiếng trên thế giới?',
+        answers: [{
+            title: 'Monin, Torani, Davinci, teisseire',
+            isCorrect: true
+        },
+        {
+            title: 'Mogan, Torana, Davinci, teisseire'
+        },
+        {
+            title: 'Monin, Toraning, Davinca, teisseire'
+        }]
+    },
+    {
+        title: 'Syrup Monin có nguồn gốc từ nước nào?',
+        answers: [{
+            title: 'Pháp',
+            isCorrect: true
+        },
+        {
+            title: 'Anh'
+        },
+        {
+            title: 'Mỹ'
+        }]
+    },
+    {
+        title: 'Hãng Monin có những sản phẩm chính nào?',
+        answers: [{
+            title: 'Syrup, Puree, Sauce, liquer',
+            isCorrect: true
+        },
+        {
+            title: 'Syrup, Sprit, Sauce, liquer'
+        },
+        {
+            title: 'Syrup, Puree, Sprit, liquer'
+        }]
+    },
+    {
+        title: 'Syrup Torani có nguồn gốc từ nước nào?',
+        answers: [{
+            title: 'Pháp'
+        },
+        {
+            title: 'Anh'
+        },
+        {
+            title: 'Mỹ',
+            isCorrect: true
+        }]
+    },
+    {
+        title: 'Syrup Teisseire có nguồn gốc từ nước nào?',
+        answers: [{
+            title: 'Pháp',
+            isCorrect: true
+        },
+        {
+            title: 'Anh'
+        },
+        {
+            title: 'Mỹ'
+        }]
+    },
+    {
+        title: 'Syrup Davinci có nguồn gốc từ nước nào?',
+        answers: [{
+            title: 'Úc',
+            isCorrect: true
+        },
+        {
+            title: 'Canada'
+        },
+        {
+            title: 'Mỹ'
+        }]
+    }
+]
+
+export const liqueurSpirit: QuestionAnswer[] = [
+    {
+        title: 'Liqueur gì?',
+        answers: [{
+            title: '(Rượu mùi) là thức uống có cồn, được chưng cất, cho thêm các vị trái cây, kem,... để tạo ra vị ngọt',
+            isCorrect: true
+        },
+        {
+            title: 'Là thức uống không cồn, được sản xuất từ trái cây tươi'
+        },
+        {
+            title: 'Là chất lỏng đậm đặc được làm từ nước, trái cây và các chất phụ gia khác'
+        }]
+    },
+    {
+        title: 'Liqueur có độ cồn trong khoảng nào?',
+        answers: [{
+            title: '15% - 60%',
+            isCorrect: true
+        },
+        {
+            title: '25% - 30%'
+        },
+        {
+            title: '40% - 50%'
+        }]
+    },
+    {
+        title: 'Liqueur được phân loại theo 2 loại chính nào??',
+        answers: [{
+            title: 'Độ cồn, độ ngọt',
+            isCorrect: true
+        },
+        {
+            title: 'Độ cồn, độ chua'
+        },
+        {
+            title: 'Độ ngọt, độ chua'
+        }]
+    },
+    {
+        title: 'Spirit gì?',
+        answers: [{
+            title: 'Là một loại rượu mạnh, được lên men từ trái cây và ngũ cốc',
+            isCorrect: true
+        },
+        {
+            title: 'Là một loại rượu nhẹ, được lên men từ trái cây và ngũ cốc'
+        },
+        {
+            title: 'Là thức uống có cồn, được chưng cất, cho thêm các vị trái cây, kem,... để tạo ra vị ngọt'
+        }]
+    },
+    {
+        title: 'Những loại Spirit nổi tiếng là',
+        answers: [{
+            title: 'Whisky, brandy, gin, tequila, rhum, vodka'
+        },
+        {
+            title: 'Whisky, XO, gin, tequila, rhum, vodka'
+        },
+        {
+            title: 'Whisky, brandy, gin, liquer, rhum, vodka',
+            isCorrect: true
+        }]
+    },
+    {
+        title: 'Liqueur được phân loại theo 2 loại chính nào?',
+        answers: [{
+            title: 'Độ cồn, độ ngọt',
+            isCorrect: true
+        },
+        {
+            title: 'Độ cồn, độ chua'
+        },
+        {
+            title: 'Độ ngọt, độ chua'
+        }]
+    },
+    {
+        title: 'Whisky được sản xuất thế nào?',
+        answers: [{
+            title: 'Chưng cất từ quá trên lên men từ ngũ cốc',
+            isCorrect: true
+        },
+        {
+            title: 'Chưng cất từ quá trên lên men từ trái cây'
+        },
+        {
+            title: 'Chưng cất từ quá trên lên men từ trái cây hoặc ngũ cốc'
+        }]
+    },
+    {
+        title: 'Whisky xuất xứ đầu tiên từ nước nào?',
+        answers: [{
+            title: 'Ireland',
+            isCorrect: true
+        },
+        {
+            title: 'Pháp'
+        },
+        {
+            title: 'Úc'
+        },
+        {
+            title: 'Mỹ'
+        }]
+    },
+    {
+        title: 'Whisky có độ cồn trong khoảng nào?',
+        answers: [{
+            title: '40% - 45%',
+            isCorrect: true
+        },
+        {
+            title: '25% - 30%'
+        },
+        {
+            title: '35% - 45%'
+        }]
+    },
+    {
+        title: 'Whisky có bao nhiêu loại đạt tiêu chuẩn cao trên thế giới?',
+        answers: [{
+            title: '4 loại (scotch whisky, american whiskey, canadian whisky, irish whisky)',
+            isCorrect: true
+        },
+        {
+            title: '5 loại (scotch whisky, american whiskey, canadian whisky, irish whisky, ireland whisky)'
+        },
+        {
+            title: '3 loại (scotch whisky, american whiskey, ireland whisky)'
+        }]
+    },
+    {
+        title: 'Whisky được phục vụ thế nào?',
+        answers: [{
+            title: 'Phục vụ với đá, hoặc không đá, với nước khoáng các loại hạt, ...',
+            isCorrect: true
+        },
+        {
+            title: 'Phục vụ không đá với nước khoáng và các loại hạt, ...'
+        },
+        {
+            title: 'Phục vụ với đá cùng nước khoáng và các loại hạt, ...'
+        }]
+    },
+    {
+        title: 'Brandy được sản xuất thế nào?',
+        answers: [{
+            title: 'Chưng cất từ quá trên lên men từ ngũ cốc',
+        },
+        {
+            title: 'Chưng cất từ quá trên lên men từ trái cây',
+            isCorrect: true
+        },
+        {
+            title: 'Chưng cất từ quá trên lên men từ trái cây hoặc ngũ cốc'
+        }]
+    },
+    {
+        title: 'Brandy được phục vụ thế nào?',
+        answers: [{
+            title: 'Thường phục vụ không đá, bằng ly Brandy Snifter(Cognac), không dùng chanh',
+            isCorrect: true
+        },
+        {
+            title: 'Thường phục vụ không đá, bằng ly Brandy Snifter(Cognac), cùng nước khoáng và chanh'
+        },
+        {
+            title: 'Thường phục vụ với đá, bằng ly Brandy Snifter(Cognac), cùng nước khoáng và chanh'
+        }]
+    }
+]
