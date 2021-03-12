@@ -1213,7 +1213,7 @@ export const liqueurSpirit: QuestionAnswer[] = [{
 {
     title: 'Whisky được phục vụ thế nào?',
     answers: [{
-        title: 'Phục vụ với đá, hoặc không đá, với nước khoáng các loại hạt, ...',
+        title: 'Phục vụ với đá, hoặc không đá, với nước khoáng, bột chiên khô, các loại hạt, ...',
         isCorrect: true
     },
     {
@@ -1276,13 +1276,13 @@ export const liqueurSpirit: QuestionAnswer[] = [{
         isCorrect: true
     },
     {
-        title: 'Mật mía'
+        title: 'Là rượu mạnh trung tính (không màu, không mùi, vị ngọt)'
     },
     {
-        title: 'Cây blue avage'
+        title: 'Là rượu nhẹ trung tính (không màu, không mùi, không vị)'
     },
     {
-        title: 'Ngũ cốc (bắp, lúa mì), thảo mộc (cam thảo, kỷ tự,...)',
+        title: 'Là rượu mạnh trung tính (màu vàng, không mùi, không vị)',
     }
     ]
 },
@@ -1323,7 +1323,7 @@ export const liqueurSpirit: QuestionAnswer[] = [{
 {
     title: 'Gin được sản xuất từ nguyên liệu gì?',
     answers: [{
-        title: 'Ngũ cốc (bắp, lúa mì), thảo mộc (cam thảo, kỷ tự,...)',
+        title: 'Ngũ cốc (bắp, lúa mì) kết hợp thảo mộc (cam thảo, kỷ tự,...)',
         isCorrect: true
     },
     {
@@ -1333,5 +1333,159 @@ export const liqueurSpirit: QuestionAnswer[] = [{
         title: 'Cây blue avage',
     }
     ]
-}
+},
+{
+    title: 'Gin có nồng độ cồn bao nhiêu?',
+    answers: [{
+        title: '40 -> 43%',
+        isCorrect: true
+    },
+    {
+        title: '35 -> 40%',
+    },
+    {
+        title: '40 -> 45%',
+    }
+    ]
+},
+{
+    title: 'Tequila, Rhum có nồng độ cồn trung bình bao nhiêu?',
+    answers: [{
+        title: '40%',
+        isCorrect: true
+    },
+    {
+        title: '35%',
+    },
+    {
+        title: '45%',
+    }
+    ]
+},
+{
+    title: 'Gin có tính chất gì?',
+    answers: [{
+        title: 'Đa số có màu trong suốt, không ngọt và không qua thời gian ủ rượu',
+        isCorrect: true
+    },
+    {
+        title: 'Đa số có màu vàng, ngọt và không qua thời gian ủ rượu',
+    },
+    {
+        title: 'Đa số có màu trong suốt, ngọt và không qua thời gian ủ rượu',
+    }
+    ]
+},
+{
+    title: 'Gin được phục vụ thế nào?',
+    answers: [{
+        title: 'Không pha, pha với đá (ly rock), pha Cocktail',
+        isCorrect: true
+    },
+    {
+        title: 'Pha với đá, kèm chanh, muối',
+    },
+    {
+        title: 'Không pha, pha với đá (ly rock), pha Cocktail, kèm chanh',
+    }
+    ]
+},
+{
+    title: 'Tequila được phục vụ thế nào?',
+    answers: [{
+        title: 'Tequila + chanh + muối, Tequila + 7up/soda/champange, pha Cocktail',
+        isCorrect: true
+    },
+    {
+        title: 'Không pha, pha với đá (ly rock), kèm đường, pha Cocktail',
+    },
+    {
+        title: 'Không pha, pha với đá (ly rock), pha Cocktail, không kèm chanh',
+    }
+    ]
+},
+{
+    title: 'Tequila được sản xuất nhiều ở nước nào?',
+    answers: [{
+        title: 'Mexico',
+        isCorrect: true
+    },
+    {
+        title: 'Pháp',
+    },
+    {
+        title: 'Mỹ',
+    }
+    ]
+},
+{
+    title: 'Rhum được phục vụ thế nào?',
+    answers: [{
+        title: 'Uống với đá, không đá, uống pha, pha Cocktail',
+        isCorrect: true
+    },
+    {
+        title: 'Rhum + chanh + muối, pha Cocktail',
+    },
+    {
+        title: 'Làm lạnh, uống kèm chanh, muối',
+    }
+    ]
+},
+{
+    title: 'Rhum được phân loại thế nào?',
+    answers: [{
+        title: 'Light, Golden, Dark, Flavoured',
+        isCorrect: true
+    },
+    {
+        title: 'Light, Dark, Flavoured',
+    },
+    {
+        title: 'Light, Clear, Dark, Flavoured',
+    }
+    ]
+},
+{
+    title: 'Vodka được phân loại thế nào?',
+    answers: [{
+        title: 'Clear, Flavoured',
+        isCorrect: true
+    },
+    {
+        title: 'Light, Dark, Flavoured',
+    },
+    {
+        title: 'Light, Clear, Dark, Flavoured',
+    }
+    ]
+},
+{
+    title: 'Vodka được phục vụ thế nào?',
+    answers: [{
+        title: 'Làm lạnh, uống không pha, uống từng ngụm',
+        isCorrect: true
+    },
+    {
+        title: 'Vodka + chanh + muối, pha Cocktail',
+    },
+    {
+        title: 'Làm lạnh, uống kèm chanh, muối',
+    }
+    ]
+},
+{
+    title: 'Rhum được sản xuất chủ yếu ở đâu?',
+    answers: [{
+        title: 'Quốc gia Nam Mỹ: Cuba, Jamaica, Haiti',
+        isCorrect: true
+    },
+    {
+        title: 'Vodka + chanh + muối, pha Cocktail',
+    },
+    {
+        title: 'Làm lạnh, uống kèm chanh, muối',
+    }
+    ]
+},
 ]
