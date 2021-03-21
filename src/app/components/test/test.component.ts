@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { coffeeQuestions, glassQuestion, toolQuestions, syrupQuestions, liqueurSpirit } from 'src/app/data/question';
+import { coffeeQuestions, glassQuestion, toolQuestions, syrupQuestions, liqueurSpirit, teaQuestion } from 'src/app/data/question';
 import { QuestionAnswer } from 'src/app/models/question.model';
 @Component({
   selector: 'app-test',
@@ -28,6 +28,9 @@ export class TestComponent implements OnInit {
           break;
         case 'liqueur-spirit':
           this.questions = liqueurSpirit;
+          break;
+        case 'tea':
+          this.questions = teaQuestion;
           break;
         default:
           this.questions = coffeeQuestions;

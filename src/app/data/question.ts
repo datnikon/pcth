@@ -1488,4 +1488,133 @@ export const liqueurSpirit: QuestionAnswer[] = [{
     }
     ]
 },
-]
+];
+
+export const teaQuestion: QuestionAnswer[] = [
+    {
+        title: 'Tạo ra món Lipton chanh nóng cần những gì?',
+        answers: [{
+            title: '01 Túi trà lipton, đường 1 thẻ, 1/2 quả chanh(~50ml), 200ml nước (96-100 độ C)',
+            isCorrect: true
+        },
+        {
+            title: '01 Túi trà lipton, đường 1 thẻ, 1 quả chanh(~100ml), 200ml nước (96-100 độ C)'
+        },
+        {
+            title: '02 Túi trà lipton, đường 1 thẻ, 1 quả chanh(~50ml), 300ml nước (96-100 độ C)'
+        }
+        ]
+    },
+    {
+        title: 'Tạo ra món Lipton chanh đá cần những gì?',
+        answers: [{
+            title: '01 Túi trà lipton, 50ml syrup đường, 1 quả chanh, 60ml nước (96-100 độ C)',
+            isCorrect: true
+        },
+        {
+            title: '01 Túi trà lipton, đường 1 thẻ, 1 quả chanh(~200ml), 200ml nước (96-100 độ C)'
+        },
+        {
+            title: '02 Túi trà lipton, đường 1 thẻ, 1 quả chanh(~200ml), 300ml nước (96-100 độ C)'
+        }
+        ]
+    },
+    {
+        title: 'Tạo ra món Lipton trái cây (dâu, đào...) cần những gì?',
+        answers: [{
+            title: '02 Túi trà lipton, 30ml syrup đường, 20ml syrup trái cây tương ứng, 15ml nước chanh, 60ml nước (96-100 độ C), quả tương ứng(đào, dâu,...)',
+            isCorrect: true
+        },
+        {
+            title: '01 Túi trà lipton, 20ml syrup đường, 30ml syrup trái cây tương ứng, 25ml nước chanh, 60ml nước (96-100 độ C), quả tương ứng(đào, dâu,...)'
+        },
+        {
+            title: '02 Túi trà lipton, 30ml syrup đường, 30ml syrup trái cây tương ứng, 25ml nước chanh, 60ml nước (96-100 độ C), quả tương ứng(đào, dâu,...)'
+        }
+        ]
+    },
+    {
+        title: 'Tạo ra món Lipton xí muội đá cần những gì?',
+        answers: [{
+            title: '01 Túi trà lipton, 35ml syrup đường, 15ml nước chanh, 60ml nước (96-100 độ C), xí muội 2 viên',
+            isCorrect: true
+        },
+        {
+            title: '02 Túi trà lipton, 30ml syrup đường, 25ml nước chanh, 60ml nước (96-100 độ C), xí muội 2 viên'
+        },
+        {
+            title: '02 Túi trà lipton, 35ml syrup đường, 15ml nước chanh, 60ml nước (96-100 độ C), xí muội 2 viên'
+        }
+        ]
+    },
+    {
+        title: 'Tạo ra món Lipton romance cần những gì?',
+        answers: [{
+            title: '01 Túi trà lipton, 30ml syrup blue curacao, 80ml sữa tươi, 60ml nước (96-100 độ C)',
+            isCorrect: true
+        },
+        {
+            title: '02 Túi trà lipton, 30ml syrup blue curacao, 100ml sữa tươi, 60ml nước (96-100 độ C)'
+        },
+        {
+            title: '02 Túi trà lipton, 20ml syrup blue curacao, 90ml sữa tươi, 60ml nước (96-100 độ C)'
+        }
+        ]
+    },
+    {
+        title: 'Tạo ra món matcha latte nóng cần những gì?',
+        answers: [{
+            title: '01 muỗng bột matcha(~3g), 60ml nước sôi (80 độ C), 80ml sữa tươi, 30ml syrup trà xanh',
+            isCorrect: true
+        },
+        {
+            title: '02 muỗng bột matcha(~6g), 60ml nước sôi (80 độ C), 60ml sữa tươi, 30ml syrup trà xanh'
+        },
+        {
+            title: '01 muỗng bột matcha(~3g), 60ml nước sôi (80 độ C), 60ml sữa tươi, 20ml syrup trà xanh'
+        }
+        ]
+    },
+    {
+        title: 'Tạo ra món trà thái sữa đá cần những gì?',
+        answers: [{
+            title: '1,5 muỗng trà thái(~4g), 20ml sữa đặc, 15ml syrup đường, 80 -> 100ml nước sôi',
+            isCorrect: true
+        },
+        {
+            title: '02 muỗng trà thái(~6g), 20ml sữa đặc, 15ml syrup đường, 60 -> 80ml nước sôi'
+        },
+        {
+            title: '02 muỗng trà thái(~6g), 30ml sữa đặc, 25ml syrup đường, 60 -> 80ml nước sôi'
+        }
+        ]
+    },
+    {
+        title: 'Tạo ra món trà sữa đào cần những gì?',
+        answers: [{
+            title: '01 túi trà, 20ml syrup đào, 40ml sữa rich, 20ml syrup đường, 80ml nước sôi, đào lon 1 miếng',
+            isCorrect: true
+        },
+        {
+            title: '01 túi trà, 20ml syrup đào, 30ml sữa rich, 30ml syrup đường, 60ml nước sôi, đào lon 1 miếng'
+        },
+        {
+            title: '01 túi trà, 20ml syrup đào, 20ml sữa rich, 20ml syrup đường, 60ml nước sôi, đào lon 1 miếng'
+        }
+        ]
+    },
+    {
+        title: 'Tạo ra món trà đào sả cần những gì?',
+        answers: [{
+            title: '02 túi trà, 20ml syrup đào, 30ml syrup sả, 10ml nước chanh, 60ml nước sôi, đào lon 1 miếng, 03 cây sả',
+            isCorrect: true
+        },
+        {
+            title: '02 túi trà, 20ml syrup đào, 20ml syrup sả, 15ml nước chanh, 60ml nước sôi, đào lon 1 miếng, 01 cây sả'
+        },
+        {
+            title: '01 túi trà, 30ml syrup đào, 20ml syrup sả, 15ml nước chanh, 60ml nước sôi, đào lon 1 miếng, 02 cây sả'
+        }
+        ]
+    }
+];
