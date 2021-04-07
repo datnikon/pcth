@@ -1,1 +1,29 @@
-<app-do-test [questions]="questions"></app-do-test>
+<div class="text-container">
+    <div class="test-course-area">
+        <h1 class="chose-test">Chọn bài kiểm tra</h1>
+        <div class="course-select">
+            <a routerLink="/test/coffee" routerLinkActive="router-link-active">
+                <button class="btn btn-test-course">Cà phê</button>
+            </a>
+            <a routerLink="/test/glass" routerLinkActive="router-link-active">
+                <button class="btn btn-test-course">Loại Ly</button>
+            </a>
+            <a routerLink="/test/tool" routerLinkActive="router-link-active">
+                <button class="btn btn-test-course">Dụng cụ</button>
+            </a>
+            <a routerLink="/test/syrup" routerLinkActive="router-link-active">
+                <button class="btn btn-test-course">Syrup</button>
+            </a>
+            <a routerLink="/test/liqueur-spirit" routerLinkActive="router-link-active">
+                <button class="btn btn-test-course">Liqueur/Spirit</button>
+            </a>
+            <a routerLink="/test/tea" routerLinkActive="router-link-active">
+                <button class="btn btn-test-course">Trà</button>
+            </a>
+        </div>
+        <app-maxim></app-maxim>
+        <div class="update-infor">
+            <span class="txt-center">Updated on 11:11 PM - 21/03/2021 </span>
+        </div>
+    </div>
+</div>

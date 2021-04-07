@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { MaximComponent } from './components/maxim/maxim.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { TestComponent } from './components/test/test.component';
+import { BaristaComponent } from './components/barista/barista.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TestComponent } from './components/test/test.component';
     TestComponent,
     PageNotFoundComponent,
     DoTestComponent,
-    MaximComponent
+    MaximComponent,
+    BaristaComponent
   ],
   imports: [
     BrowserModule,

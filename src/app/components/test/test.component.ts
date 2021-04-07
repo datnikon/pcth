@@ -1,51 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { coffeeQuestions, glassQuestion, toolQuestions, syrupQuestions, liqueurSpirit, teaQuestion } from 'src/app/data/question';
-import { QuestionAnswer } from 'src/app/models/question.model';
+import { Component } from '@angular/core';
+
 @Component({
   selector: 'app-test',
   templateUrl: './test.component.html',
   styleUrls: ['./test.component.scss']
 })
-export class TestComponent implements OnInit {
-  constructor(private route: ActivatedRoute) { }
-  public questions: QuestionAnswer[] = [];
+export class TestComponent {
 
-  ngOnInit(): void {
-    this.route.params.subscribe(params => {
-      switch (params.id) {
-        case 'coffee':
-          this.questions = coffeeQuestions;
-          break;
-        case 'glass':
-          this.questions = this.shuffleArray(glassQuestion);
-          break;
-        case 'tool':
-          this.questions = this.shuffleArray(toolQuestions);
-          break;
-        case 'syrup':
-          this.questions = syrupQuestions;
-          break;
-        case 'liqueur-spirit':
-          this.questions = liqueurSpirit;
-          break;
-        case 'tea':
-          this.questions = teaQuestion;
-          break;
-        default:
-          this.questions = coffeeQuestions;
-      }
-    });
-  }
-
-  public shuffleArray(a: QuestionAnswer[]): QuestionAnswer[] {
-    let j, x, i;
-    for (i = a.length - 1; i > 0; i--) {
-      j = Math.floor(Math.random() * (i + 1));
-      x = a[i];
-      a[i] = a[j];
-      a[j] = x;
-    }
-    return a;
-  }
 }
