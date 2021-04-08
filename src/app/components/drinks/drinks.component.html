@@ -1,0 +1,8 @@
+<div *ngIf="type && drinks" class="drinks" [id]="type.slug">
+    <div class="title">
+        {{type.type}}
+    </div>
+    <div class="row">
+        <app-drink class="s-12 m-4 l-3 xl-2" *ngFor="let drink of drinks" [drink]="drink"></app-drink>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<div *ngIf="drink" class="recipe-content">
+    <div class="name">{{drink.name}}</div>
+    <div class="materials">
+        <h4 class="material-title">Nguyên liệu:</h4>
+        <div *ngFor="let material of drink.materials; let i = index" class="material">{{i}}) {{material}}</div>
+    </div>
+    <div class="steps">
+        <h4 class="step-title">Cách làm:</h4>
+        <div *ngFor="let step of drink.steps; let id = index" class="material">{{id}}) {{step}}</div>
+    </div>
+</div>

@@ -11,7 +11,7 @@ export class MaximComponent implements OnChanges {
 
   @Input() public index: number = Math.floor(Math.random() * this.maxims.length);
   public ngOnChanges(): void {
-    this.index = Math.floor(Math.random() * 5);
+    this.index = Math.floor(Math.random() * this.maxims.length);
   }
   constructor() { }
 }

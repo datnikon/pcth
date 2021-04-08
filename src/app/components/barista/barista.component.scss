@@ -1,0 +1,13 @@
+.drink-group {
+}
+
+button + button {
+  margin: 1rem;
+}
+
+.title:nth-child(even) {
+  background-color: #dc4916;
+}
+.title:nth-child(odd) {
+  background-color: #dc4916;
+}

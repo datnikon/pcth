@@ -28,3 +28,15 @@ a {
 button:disabled {
   opacity: 0.6;
 }
+
+img {
+  max-width: 100%;
+}
+.flex-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import url("../src/assets/scss/grid.scss");

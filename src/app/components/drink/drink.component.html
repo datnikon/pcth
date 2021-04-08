@@ -1,0 +1,5 @@
+<div *ngIf="drink" class="drink" (click)="onClickDrink()">
+    <img [src]="drink.img" [alt]="drink.name">
+    <div class="drink-name">{{drink.name}}</div>
+    <app-recipe *ngIf="isShowRecipe" [drink]="drink"></app-recipe>
+</div>

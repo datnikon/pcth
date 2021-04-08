@@ -46,5 +46,21 @@ export const maxims: Maxim[] = [
     {
         title: 'Bạn không cần phải thức đêm để thành công; bạn chỉ cần tỉnh táo vào ban ngày',
         author: 'Khuyết danh'
+    },
+    {
+        title: 'Thành công chỉ đến khi bạn làm việc tận tâm và luôn nghĩ đến những điều tốt đẹp.',
+        author: 'A schwarzenegger'
+    },
+    {
+        title: 'Cơ hội thành công của bạn trong mọi chuyện luôn có thể được đo bằng niềm tin của bạn vào chính bản thân mình',
+        author: 'Robert Collier'
+    },
+    {
+        title: 'Thành công không phải ngẫu nhiên. Đó là sự chăm chỉ, bền bỉ, học hỏi, nghiên cứu, hy sinh và quan trọng nhất, tình yêu đối với việc mình đang làm',
+        author: 'Pele'
+    },
+    {
+        title: 'Về cơ bản, có ba loại người: người không thành công, người thành công trong chốc lát, và người thành công bền vững. Sự khác biệt nằm ở nghị lực.',
+        author: 'Brian Tracy'
     }
 ];
