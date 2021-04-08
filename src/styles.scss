@@ -39,6 +39,9 @@ $pcthTest-theme: mat-light-theme(
   --textColor: #fff;
   --bodyBackgroundColor: #424242;
 }
+* {
+  box-sizing: border-box;
+}
 
 body {
   padding: 0;
@@ -60,6 +63,7 @@ button:disabled {
 img {
   max-width: 100%;
 }
+
 .flex-center {
   width: 100%;
   display: flex;
@@ -68,12 +72,3 @@ img {
 }
 
 @import url("../src/assets/scss/grid.scss");
-
-html,
-body {
-  height: 100%;
-}
-body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-}

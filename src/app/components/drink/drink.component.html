@@ -2,6 +2,8 @@
     <mat-card-header>
         <mat-card-title class="drink-name">{{drink.name}}</mat-card-title>
     </mat-card-header>
-    <img mat-card-image [src]="drink.img" [alt]="drink.name">
+    <div class="flex-center">
+        <img mat-card-image [src]="drink.img" [alt]="drink.name" class="drink-img">
+    </div>
     <app-recipe *ngIf="isShowRecipe" [drink]="drink"></app-recipe>
 </mat-card>

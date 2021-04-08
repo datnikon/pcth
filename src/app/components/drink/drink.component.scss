@@ -1,8 +1,11 @@
 .drink {
   cursor: pointer;
   margin: 0.5rem;
-
-  .drink-name {
-    text-align: center;
-  }
+}
+.mat-card-header {
+  justify-content: center;
+}
+.drink-img {
+  height: 300px;
+  width: auto;
 }
