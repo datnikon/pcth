@@ -2,9 +2,10 @@
     <h1 class="txt-center" *ngIf="correctNumber == questions.length">🎈🎈 Quá tuyệt vời 🎈🎈</h1>
     <h1 class="txt-center">{{correctNumber}} / {{questions.length}}</h1>
     <div class="action">
-        <button *ngIf="correctNumber < questions.length" class="btn btn-test" (click)="reset()">Làm lại</button>
+        <button *ngIf="correctNumber < questions.length" mat-flat-button color="primary" (click)="reset()">Làm
+            lại</button>
         <a class="link-with-button" routerLink="/" routerLinkActive="router-link-active">
-            <button class="btn btn-test">Trang chủ</button>
+            <button mat-flat-button color="primary">Trang chủ</button>
         </a>
     </div>
 </div>
@@ -20,14 +21,15 @@
     <p *ngIf="isShowResult" [ngClass]="{success: isCorrect}" class="incorrect">
         {{ isCorrect ? 'Tuyệt vời, trả lời đúng rồi nè' : 'Sai rồi nè, cố gắng học thêm nha' }}
     </p>
-    <button *ngIf="canShowCheck()" class="btn btn-test" (click)="doCheck()"
+    <button *ngIf="canShowCheck()" mat-flat-button color="primary" (click)="doCheck()"
         [disabled]="!isSelected && !isShowResult">Kiểm tra</button>
-    <button *ngIf="canShowNextQuestion()" class="btn btn-test" (click)="nextQuestion()">Câu tiếp theo</button>
-    <button *ngIf="canShowViewResult()" class="btn btn-test" (click)="showResult()"
+    <button *ngIf="canShowNextQuestion()" mat-flat-button color="primary" (click)="nextQuestion()">Câu tiếp
+        theo</button>
+    <button *ngIf="canShowViewResult()" mat-flat-button color="primary" (click)="showResult()"
         [disabled]="!isSelected && !isShowResult">Xem
         kết quả</button>
     <a class="link-with-button" routerLink="/" routerLinkActive="router-link-active">
-        <button class="btn btn-test btn-exit">Thoát</button>
+        <button mat-flat-button color="primary">Thoát</button>
     </a>
     <app-maxim [index]="questionNumber"></app-maxim>
 </div>

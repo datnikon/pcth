@@ -1,12 +1,8 @@
 header {
-  position: fixed;
-  top: 0;
   display: flex;
   height: 40px;
-  background-color: gray;
-  color: white;
-  left: 0;
-  right: 0;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
   align-items: center;
   justify-content: center;
   a {

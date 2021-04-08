@@ -1,5 +1,5 @@
-<div class="flex-center drink-group">
-    <button *ngFor="let type of drinkTypes" (click)="scrollTo(type.slug)" class="btn">{{type.type}}</button>
+<div class="drink-group">
+    <button *ngFor="let type of drinkTypes" (click)="scrollTo(type.slug)" mat-flat-button>{{type.type}}</button>
 </div>
 <div class="drink-list">
     <app-drinks *ngFor="let type of drinkTypes" [type]="type"></app-drinks>

@@ -14,9 +14,8 @@ p {
   color: green;
 }
 
-.btn-test {
-  padding: 10px 15px;
-  margin: 7px;
+button {
+  margin-right: 1rem;
 }
 
 .answer {
@@ -39,10 +38,6 @@ p {
 
 .link-with-button {
   text-align: center;
-}
-
-.btn-exit {
-  background-color: gray;
 }
 
 @media (max-width: 768px) {

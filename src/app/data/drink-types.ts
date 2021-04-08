@@ -2,12 +2,25 @@ import { DrinkType } from '../models/drink-type.model';
 
 export const drinkTypes: DrinkType[] = [
     {
-        type: 'Virgin Mojito',
-        slug: 'virgin-mojito'
+        type: 'Thức uống truyền thống',
+        slug: 'truyen-thong'
     },
     {
         type: 'Cà phê',
         slug: 'ca-phe'
+    },
+    {
+        type: 'Trà',
+        slug: 'tra'
+    }
+    ,
+    {
+        type: 'Nước ép',
+        slug: 'nuoc-ep'
+    },
+    {
+        type: 'Nước ép đa tầng',
+        slug: 'nuoc-ep-da-tang'
     },
     {
         type: 'Sinh tố Việt',
@@ -18,11 +31,34 @@ export const drinkTypes: DrinkType[] = [
         slug: 'sinh-to-au'
     },
     {
-        type: 'Soda Italian',
-        slug: 'soda-italian'
+        type: 'Ice blended coffee',
+        slug: 'ice-blended-coffee'
+    },
+    {
+        type: 'Mill shaker',
+        slug: 'mill-shaker'
+    },
+    {
+        type: 'Yoghurt',
+        slug: 'yoghurt'
+    },
+    {
+        type: 'Sữa chua',
+        slug: 'sua-chua'
+    }, {
+        type: 'Virgin Mojito',
+        slug: 'virgin-mojito'
+    },
+    {
+        type: 'Italian Soda',
+        slug: 'italian-soda'
     },
     {
         type: 'Trà sữa',
         slug: 'tra-sua'
     },
+    {
+        type: 'Thức uống theo xu hướng',
+        slug: 'xu-huong'
+    }
 ];

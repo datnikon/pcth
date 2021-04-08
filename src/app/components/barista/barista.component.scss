@@ -1,13 +1,12 @@
 .drink-group {
+  width: 100vw;
+  white-space: nowrap;
+  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem;
 }
 
-button + button {
-  margin: 1rem;
-}
-
-.title:nth-child(even) {
-  background-color: #dc4916;
-}
-.title:nth-child(odd) {
-  background-color: #dc4916;
+button {
+  margin: 0 0.5rem;
 }

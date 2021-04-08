@@ -1,5 +1,7 @@
-<div *ngIf="drink" class="drink" (click)="onClickDrink()">
-    <img [src]="drink.img" [alt]="drink.name">
-    <div class="drink-name">{{drink.name}}</div>
+<mat-card *ngIf="drink" class="drink" (click)="onClickDrink()">
+    <mat-card-header>
+        <mat-card-title class="drink-name">{{drink.name}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image [src]="drink.img" [alt]="drink.name">
     <app-recipe *ngIf="isShowRecipe" [drink]="drink"></app-recipe>
-</div>
+</mat-card>
