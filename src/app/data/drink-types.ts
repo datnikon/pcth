@@ -34,10 +34,10 @@ export const drinkTypes: DrinkType[] = [
         type: 'Ice blended coffee',
         slug: 'ice-blended-coffee'
     },
-    {
-        type: 'Mill shaker',
-        slug: 'mill-shaker'
-    },
+    // {
+    //     type: 'Mill shaker',
+    //     slug: 'mill-shaker'
+    // },
     {
         type: 'Yoghurt',
         slug: 'yoghurt'
@@ -45,7 +45,8 @@ export const drinkTypes: DrinkType[] = [
     {
         type: 'Sữa chua',
         slug: 'sua-chua'
-    }, {
+    },
+    {
         type: 'Virgin Mojito',
         slug: 'virgin-mojito'
     },
