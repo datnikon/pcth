@@ -2,7 +2,7 @@ import { DrinkType } from '../models/drink-type.model';
 
 export const drinkTypes: DrinkType[] = [
     {
-        type: 'Thức uống truyền thống',
+        type: 'Truyền thống',
         slug: 'truyen-thong'
     },
     {
@@ -51,7 +51,7 @@ export const drinkTypes: DrinkType[] = [
         slug: 'tra-sua'
     },
     {
-        type: 'Thức uống theo xu hướng',
+        type: 'Theo xu hướng',
         slug: 'xu-huong'
     }
 ];
