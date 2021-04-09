@@ -46,9 +46,13 @@ $pcthTest-theme: mat-light-theme(
 body {
   padding: 0;
   margin: 0;
-  background-color: var(--bodyBackgroundColor);
-  color: var(--textColor);
+  // background-color: var(--bodyBackgroundColor);
+  // color: var(--textColor);
   opacity: 0.8;
+}
+
+html {
+  font-size: 20px;
 }
 
 a {
@@ -71,4 +75,10 @@ img {
   align-items: center;
 }
 
+.mat-button,
+.mat-icon-button,
+.mat-stroked-button,
+.mat-flat-button {
+  font-size: 1rem;
+}
 @import url("../src/assets/scss/grid.scss");

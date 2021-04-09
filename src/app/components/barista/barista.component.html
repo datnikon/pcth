@@ -1,6 +1,5 @@
 <div class="drink-group">
-    <button *ngFor="let type of drinkTypes" (click)="scrollTo(type.slug)" mat-flat-button
-        color="primary">{{type.type}}</button>
+    <button *ngFor="let type of drinkTypes" (click)="scrollTo(type.slug)" mat-flat-button>{{type.type}}</button>
 </div>
 <div class="drink-list">
     <app-drinks *ngFor="let type of drinkTypes" [type]="type"></app-drinks>
