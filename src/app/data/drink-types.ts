@@ -6,8 +6,8 @@ export const drinkTypes: DrinkType[] = [
         slug: 'truyen-thong'
     },
     {
-        type: 'Cà phê',
-        slug: 'ca-phe'
+        type: 'Cà phê máy',
+        slug: 'ca-phe-may'
     },
     {
         type: 'Trà',
