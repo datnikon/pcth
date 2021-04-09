@@ -19,16 +19,8 @@ export const drinkTypes: DrinkType[] = [
         slug: 'nuoc-ep'
     },
     {
-        type: 'Nước ép đa tầng',
-        slug: 'nuoc-ep-da-tang'
-    },
-    {
-        type: 'Sinh tố Việt',
-        slug: 'sinh-to-viet'
-    },
-    {
-        type: 'Sinh tố Âu',
-        slug: 'sinh-to-au'
+        type: 'Sinh tố',
+        slug: 'sinh-to'
     },
     {
         type: 'Ice blended coffee',
