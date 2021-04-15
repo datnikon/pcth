@@ -26,10 +26,6 @@ export const drinkTypes: DrinkType[] = [
         type: 'Ice blended coffee',
         slug: 'ice-blended-coffee'
     },
-    // {
-    //     type: 'Mill shaker',
-    //     slug: 'mill-shaker'
-    // },
     {
         type: 'Yoghurt',
         slug: 'yoghurt'
