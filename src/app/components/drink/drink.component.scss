@@ -1,6 +1,7 @@
 .drink {
   cursor: pointer;
   margin: 0.5rem;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
 }
 .mat-card-header {
   justify-content: center;
@@ -8,7 +9,13 @@
 .drink-img {
   height: 300px;
   width: auto;
+  padding-bottom: 0.5rem;
 }
 .mat-card-image:first-child {
   margin: 0;
+}
+.drink-name {
+  text-align: center;
+  font-weight: 600;
+  padding: 0.5rem 0;
 }

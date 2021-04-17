@@ -1,14 +1,14 @@
 import { DrinkType } from '../models/drink-type.model';
 
 export const drinkTypes: DrinkType[] = [
-    {
-        type: 'Truyền thống',
-        slug: 'truyen-thong'
-    },
-    {
-        type: 'Cà phê máy',
-        slug: 'ca-phe-may'
-    },
+    // {
+    //     type: 'Truyền thống',
+    //     slug: 'truyen-thong'
+    // },
+    // {
+    //     type: 'Cà phê máy',
+    //     slug: 'ca-phe-may'
+    // },
     {
         type: 'Trà',
         slug: 'tra'
@@ -23,17 +23,25 @@ export const drinkTypes: DrinkType[] = [
         slug: 'sinh-to'
     },
     {
+        type: 'Lassi',
+        slug: 'lassi'
+    },
+    {
         type: 'Ice blended coffee',
         slug: 'ice-blended-coffee'
     },
     {
-        type: 'Yoghurt',
-        slug: 'yoghurt'
+        type: 'Milk Shaker',
+        slug: 'milk-shaker'
     },
-    {
-        type: 'Sữa chua',
-        slug: 'sua-chua'
-    },
+    // {
+    //     type: 'Yoghurt',
+    //     slug: 'yoghurt'
+    // },
+    // {
+    //     type: 'Sữa chua',
+    //     slug: 'sua-chua'
+    // },
     {
         type: 'Virgin Mojito',
         slug: 'virgin-mojito'
@@ -42,12 +50,12 @@ export const drinkTypes: DrinkType[] = [
         type: 'Italian Soda',
         slug: 'italian-soda'
     },
-    {
-        type: 'Trà sữa',
-        slug: 'tra-sua'
-    },
-    {
-        type: 'Theo xu hướng',
-        slug: 'xu-huong'
-    }
+    // {
+    //     type: 'Trà sữa',
+    //     slug: 'tra-sua'
+    // },
+    // {
+    //     type: 'Theo xu hướng',
+    //     slug: 'xu-huong'
+    // }
 ];
