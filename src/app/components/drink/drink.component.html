@@ -3,7 +3,7 @@
         <div class="drink-name">{{drink.name}}</div>
     </div>
     <div class="flex-center">
-        <img mat-card-image [src]="drink.img" [alt]="drink.name" class="drink-img">
+        <img [src]="drink.img" [alt]="drink.name" class="drink-img" loading="lazy">
     </div>
     <app-recipe *ngIf="isShowRecipe" [drink]="drink"></app-recipe>
 </div>
