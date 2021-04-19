@@ -3,11 +3,11 @@ import { ActivatedRoute } from '@angular/router';
 import { Answer, QuestionAnswer } from 'src/app/models/question.model';
 import { coffeeQuestions, glassQuestion, toolQuestions, syrupQuestions, liqueurSpirit, teaQuestion } from 'src/app/data/question';
 @Component({
-  selector: 'app-do-test',
-  templateUrl: './do-test.component.html',
-  styleUrls: ['./do-test.component.scss']
+  selector: 'app-quiz-player',
+  templateUrl: './quiz-player.component.html',
+  styleUrls: ['./quiz-player.component.scss']
 })
-export class DoTestComponent implements OnInit {
+export class QuizPlayerComponent implements OnInit {
 
   @Input() public questions: QuestionAnswer[] = [];
   public questionNumber = 0;

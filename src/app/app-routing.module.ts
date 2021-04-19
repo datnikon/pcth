@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DoTestComponent } from './components/do-test/do-test.component';
 import { HomeComponent } from './components/home/home.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
-import { TestComponent } from './components/test/test.component';
+import { ShareModule } from './modules/share.module';
 
 const routes: Routes = [
   {
@@ -12,15 +11,12 @@ const routes: Routes = [
   },
   {
     path: 'test',
-    component: TestComponent
-  },
-  {
-    path: 'test/:id',
-    component: DoTestComponent
-  },
+    loadChildren: () => import('./modules/quiz.module').then(q => q.QuizModule)
+  }
+  ,
   {
     path: 'pha-che',
-    loadChildren: () => import('./barista.module').then(b => b.BaristaModule)
+    loadChildren: () => import('./modules/barista.module').then(b => b.BaristaModule)
   },
   {
     path: '**',
@@ -29,7 +25,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes), ShareModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -118,7 +118,7 @@ export const drinks: Drink[] = [
     // },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/tra_dao_sa.jpg',
-        materials: ['Trà đào 2 túi', 'Syrup đào 20ml', 'Syrup sả 30ml', 'Nước chanh 10ml', 'Vải lon 3 quả', 'Nước sôi 60ml', 'Đào lon 1 miếng'],
+        materials: ['Trà đào 2 túi', 'Syrup đào 20ml', 'Syrup sả 30ml', 'Nước chanh 10ml', 'Sả tươi 3 cây', 'Nước sôi 60ml', 'Đào lon 1 miếng'],
         steps: ['Ngâm trà', 'Cắt đào miếng nhỏ', 'Shaker toàn bộ', 'Decor'],
         type: 'Trà',
         name: 'Trà đào sả',
@@ -268,7 +268,7 @@ export const drinks: Drink[] = [
     // Lassi
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
-        materials: ['Xoài chín 1/2 quả (xoài chín gọt vỏ - xoài cát Hòa Lộc)', 'Sữa đặc 30ml', 'Mật ông 10ml', 'Lá bạc hà 9-10 lá', 'Sữa rích 30ml', 'Sữa chua 50ml', 'Bột frag 10g'],
+        materials: ['Xoài chín 1/2 quả (xoài chín gọt vỏ - xoài cát Hòa Lộc)', 'Sữa đặc 30ml, sữa rích 30ml', 'Mật ông 10ml', 'Lá bạc hà 9-10 lá', 'Sữa chua 50ml', 'Bột frag 10g'],
         steps: ['Sơ chế xoài, lấy 1/2 quả', 'Cho tất cả vào xay', 'Nếm thử', 'Trang trí lá bạc hà lên'],
         type: 'Lassi',
         name: 'Mango Lassi (xoài)',
@@ -323,30 +323,30 @@ export const drinks: Drink[] = [
     {
         img: 'https://www.cairowestmag.com/wp-content/uploads/2018/02/vmojito3-1.jpg',
         materials: ['Chanh 1 quả', 'Nước chanh 10ml', 'Đường cát 10g', 'Soda', 'Rau húng'],
-        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly -> cho đường cát vào dầm -> đập rau húng cho vào ly'
-            , 'Cho đá gần đầy ly -> rót soda vào đầy ly -> khuấy đều'],
+        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly rồi cho đường cát vào dầm', 'Đập rau húng cho vào ly'
+            , 'Cho đá gần đầy ly, rót soda vào đầy ly rồi khuấy đều'],
         type: 'Virgin Mojito',
         name: 'Virgin Mojito',
     },
     {
         img: 'https://pizzacavicent.es/345-large_default/caipiroska-de-fresa.jpg',
         materials: ['Chanh 1 quả', 'Syrup chanh dây 30ml', 'Chanh dây 20ml (có hạt, tầm 1 quả)', 'Đường cát 2 muỗng', 'Soda', 'Rau húng'],
-        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly -> cho đường cát vào dầm -> đập rau húng cho vào ly'
-            , 'Cho đá gần đầy ly -> rót soda vào đầy ly -> khuấy đều'],
+        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly rồi cho đường cát vào dầm', 'Đập rau húng cho vào ly'
+            , 'Cho đá gần đầy ly, rót soda vào đầy ly rồi khuấy đều'],
         type: 'Virgin Mojito',
         name: 'Virgin Pasion Mojito',
     },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/virgin-strawberry-mojito.jpg',
         materials: ['Chanh 1 quả', 'Syrup dâu 30ml', '2 quả dâu', 'Đường cát 2 muỗng', 'Soda', 'Rau húng'],
-        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly -> cho đường cát vào dầm -> cho dâu, rau húng vào ly'
-            , 'Cho đá gần đầy ly -> rót soda vào đầy ly -> khuấy đều'],
+        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly rồi cho đường cát vào dầm', 'Cho dâu, rau húng vào ly'
+            , 'Cho đá gần đầy ly, rót soda vào đầy ly rồi khuấy đều'],
         type: 'Virgin Mojito',
         name: 'Virgin Strawberry Mojito',
     },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/virgin-pina-colada-mojito.jpg',
-        materials: ['Chanh 1 quả', '90ml nước thơm', 'Syrup đường 10ml', 'Coconut cream 30ml', 'Syrup Coconut 15ml', 'Soda'],
+        materials: ['90ml nước thơm', 'Syrup đường 10ml', 'Coconut cream 30ml', 'Syrup Coconut 15ml', 'Soda'],
         steps: ['Sơ chế thơm và ép lấy nước', 'Shaker tất cả'],
         type: 'Virgin Mojito',
         name: 'Virgin Pina Colada Mojito',
