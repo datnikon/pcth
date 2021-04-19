@@ -336,14 +336,14 @@ export const drinks: Drink[] = [
         type: 'Virgin Mojito',
         name: 'Virgin Passion Mojito',
     },
-    {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/virgin-strawberry-mojito.jpg',
-        materials: ['Chanh 1 quả', 'Syrup dâu 30ml', '2 quả dâu', 'Đường cát 2 muỗng', 'Soda', 'Rau húng'],
-        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly rồi cho đường cát vào dầm', 'Cho dâu, rau húng vào ly'
-            , 'Cho đá gần đầy ly, rót soda vào đầy ly rồi khuấy đều'],
-        type: 'Virgin Mojito',
-        name: 'Virgin Strawberry Mojito',
-    },
+    // {
+    //     img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/virgin-strawberry-mojito.jpg',
+    //     materials: ['Chanh 1 quả', 'Syrup dâu 30ml', '2 quả dâu', 'Đường cát 2 muỗng', 'Soda', 'Rau húng'],
+    //     steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly rồi cho đường cát vào dầm', 'Cho dâu, rau húng vào ly'
+    //         , 'Cho đá gần đầy ly, rót soda vào đầy ly rồi khuấy đều'],
+    //     type: 'Virgin Mojito',
+    //     name: 'Virgin Strawberry Mojito',
+    // },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/virgin-pina-colada-mojito.jpg',
         materials: ['90ml nước thơm', 'Syrup đường 10ml', 'Coconut cream 30ml', 'Syrup Coconut 15ml', 'Soda'],
