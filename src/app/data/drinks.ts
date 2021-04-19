@@ -298,7 +298,7 @@ export const drinks: Drink[] = [
     },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/ice_blended_cookie.jpg',
-        materials: ['Espresso 50ml', 'Sữa đặc 30ml', 'Vanila 20ml', 'Sữa rich 30ml', 'Bột frapp 10g', 'Sữa tươi 30ml'],
+        materials: ['Espresso 50ml', 'Sữa đặc 30ml', 'Bánh oreo 2 cái', 'Sữa rich 30ml', 'Bột frapp 10g', 'Sữa tươi 30ml'],
         steps: ['Xay tất cả trừ kem', 'Xịt kem và trang trí'],
         type: 'Ice blended coffee',
         name: 'Ice blended coffee with cookie',
