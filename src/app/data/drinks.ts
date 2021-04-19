@@ -46,7 +46,7 @@ export const drinks: Drink[] = [
     // },
     // Trà
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/lip_ton_chanh_da.jpg',
         materials: ['Chanh 1 quả (20ml)', 'Trà lipton 1 túi', '60ml nước sôi', 'Syrup đường 50ml', 'Mật ông 15 -> 20ml (tùi chọn)'],
         steps: ['Ngâm trà 3-5 phút', 'Cho syrup đường, chanh, đá bi vào rồi shaker', 'Cho ống hút và decor'],
         type: 'Trà',
@@ -67,14 +67,14 @@ export const drinks: Drink[] = [
     //     name: 'Lipton xí muội đá',
     // },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/lipton_romance.jpg',
         materials: ['Trà 1 túi', 'Syrup blue curacao 30ml', 'Sữa tươi 80ml', 'Nước sôi 60ml'],
         steps: ['Ngâm trà 3-5 phút', 'Chọn ly đế nhọn, cho syrup vào ly', 'Shaker sữa tươi rồi cho vào ly', 'Cho trà vào ly', 'Decor'],
         type: 'Trà',
         name: 'Lipton Romance',
     },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/matcha_latte.jpg',
         materials: ['Bột matcha 1 muỗng (~3g)', 'Syrup trà xanh 30ml', 'Sữa tươi 80ml', 'Nước sôi 60ml'],
         steps: ['Cho bột trà vào ly cùng nước rồi khuấy đều', 'Chọn ly đế nhọn, cho syrup vào ly rồi cho đá đầy', 'Shaker sữa tươi rồi cho vào ly', 'Cho trà vào ly', 'Decor'],
         type: 'Trà',
@@ -95,7 +95,7 @@ export const drinks: Drink[] = [
     //     name: 'Trà thái sữa (đá)',
     // },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/tra_dao.jpg',
         materials: ['Trà đào 2 túi (trà cozy)', 'Syrup đào 20ml',
             'Syrup đường 30ml', 'Đào lon 1 miếng', 'Nước chanh 15ml', 'Nước sôi 60ml'],
         steps: ['Ngâm trà rồi lọc trà', 'Cắt đào', 'Shaker toàn bộ', 'Decor'],
@@ -117,7 +117,7 @@ export const drinks: Drink[] = [
     //     name: 'Trà vải đá',
     // },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/tra_dao_sa.jpg',
         materials: ['Trà đào 2 túi', 'Syrup đào 20ml', 'Syrup sả 30ml', 'Nước chanh 10ml', 'Vải lon 3 quả', 'Nước sôi 60ml', 'Đào lon 1 miếng'],
         steps: ['Ngâm trà', 'Cắt đào miếng nhỏ', 'Shaker toàn bộ', 'Decor'],
         type: 'Trà',
@@ -132,7 +132,7 @@ export const drinks: Drink[] = [
     // },
     // Nước ép
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/tao_ep.jpg',
         materials: ['Táo xanh 1 quả', 'Syrup đường 40ml', 'Muối'],
         steps: ['Cắt decor trước khi làm', 'Cho đá và muối vào ca để chứa nước ép', 'Ép táo', 'Cho đường vào khuấy', 'Kiểm tra và decor'],
         type: 'Nước ép',
@@ -160,7 +160,7 @@ export const drinks: Drink[] = [
     //     name: 'Nước ổi',
     // },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/nuoc_chanh.jpg',
         materials: ['Chanh 3 quả (chanh Sài Gòn, mùa vàng, da căng, bóng)', 'Syrup đường 65-75ml', 'Nước lọc 30ml', 'Muối'],
         steps: ['Cắt chanh làm 3 vắt lấy nước (vắt 1 lần duy nhất)', 'Shaker tất cả', 'Khuấy', 'Decor'],
         type: 'Nước ép',
@@ -195,7 +195,7 @@ export const drinks: Drink[] = [
     //     name: 'Nước chanh dây',
     // },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/blue_passion.jpg',
         materials: ['Chanh dây 60ml', 'Syrup blue curacao 30ml', 'Syrup đường 30ml'],
         steps: ['Cho syrup blue curacao vào ly', 'Shaker các thành phần còn lại rồi cho vào ly', 'Decor'],
         type: 'Nước ép',
@@ -252,14 +252,14 @@ export const drinks: Drink[] = [
     //     name: 'Sinh tố đu đủ',
     // },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/sinh_to_xoai.jpg',
         materials: ['Xoài chín 1/2 quả (xoài chín gọt vỏ - xoài cát Hòa Lộc)', 'Sữa đặc 30ml', 'Syrup đường 15ml', 'Sữa tươi 60ml'],
         steps: ['Sơ chế xoài', 'Cho tất cả vào xay', 'Decor'],
         type: 'Sinh tố',
         name: 'Sinh tố xoài',
     },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/sinh_to_dau.jpg',
         materials: ['Dâu 10 quả', 'Sữa đặc 30ml', 'Syrup đường 15ml', 'Sữa tươi 40ml', 'Bột frapp 10g', 'Sốt dâu 30ml'],
         steps: ['Sơ chế dâu', 'Cho tất cả vào xay', 'Decor'],
         type: 'Sinh tố',
@@ -282,25 +282,24 @@ export const drinks: Drink[] = [
     },
     // Ice blend coffe
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/ice_blended_vanila.jpg',
         materials: ['Espresso 50ml', 'Sữa đặc 30ml', 'Vanila 20ml', 'Sữa rich 30ml', 'Bột frapp 10g', 'Sữa tươi 20ml'],
         steps: ['Xay tất cả trừ kem', 'Xịt kem và trang trí'],
         type: 'Ice blended coffee',
         name: 'Ice blended coffee with vanila',
     },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
-        materials: ['Bột trà xanh 3g', 'Sữa đặc 30ml', 'Sữa rich 30ml', 'Bột frapp 10g', 'Sữa tươi 60ml', 'Syrup trà xanh 30ml', 'Kem', 'Thạch dẻo'],
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/ice_blended_matcha.jpg',
+        materials: ['Bột trà xanh 3g', 'Sữa đặc 30ml', 'Sữa rich 30ml', 'Bột frapp 10g', 'Sữa tươi 60ml', 'Syrup trà xanh 30ml', 'Kem, thạch dẻo'],
         steps: ['Xay tất cả trừ kem'
             , 'Thạch cắt mỏng ép vào thành', 'Cho vào ly rồi xịt kem', 'Rắc bột trà trang trí'],
         type: 'Ice blended coffee',
         name: 'Ice blended matcha',
     },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
-        materials: ['Xay tất cả trừ kem', 'Cho vào ly rồi xịt kem', 'Rắc bột trà trang trí'],
-        steps: ['Xay tất cả trừ kem'
-            , 'Xịt kem và trang trí bằng 1/2 bánh cookie'],
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/ice_blended_cookie.jpg',
+        materials: ['Espresso 50ml', 'Sữa đặc 30ml', 'Vanila 20ml', 'Sữa rich 30ml', 'Bột frapp 10g', 'Sữa tươi 30ml'],
+        steps: ['Xay tất cả trừ kem', 'Xịt kem và trang trí'],
         type: 'Ice blended coffee',
         name: 'Ice blended coffee with cookie',
     },
@@ -314,7 +313,7 @@ export const drinks: Drink[] = [
         name: 'Chocolate Milk Shaker',
     },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/milk_shaker_dau.jpg',
         materials: ['Sốt strawberry (dâu) 60ml', 'Sữa tươi 60ml', 'Syrup dâu 20ml'],
         steps: ['Shaker toàn bộ', 'Trang trí bằng rau húng'],
         type: 'Milk Shaker',
@@ -355,7 +354,7 @@ export const drinks: Drink[] = [
 
     // Italian Soda
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
         materials: ['Syrup strawbery (dâu) 30ml', 'Syrup bricot(mơ) 20 ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
             , 'Cho chanh vào', 'Cho đá gần đầy ly -> rót soda vào đầy ly -> Decor bằng chanh'],
@@ -363,7 +362,7 @@ export const drinks: Drink[] = [
         name: 'Red sunset',
     },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
         materials: ['Syrup blue curacao 30ml', 'Syrup blue passion (chanh dây) 20ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
             , 'Cho chanh vào', 'Cho đá gần đầy ly -> rót soda vào đầy ly -> Decor bằng chanh'],
@@ -371,7 +370,7 @@ export const drinks: Drink[] = [
         name: 'Blue Ocen (Đại dương xanh)',
     },
     {
-        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
         materials: ['Syrup strawbery (dâu) 25ml', 'Syrup blue curacao 25ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
             , 'Cho chanh vào', 'Cho đá gần đầy ly -> rót soda vào đầy ly -> Decor bằng chanh'],
