@@ -119,7 +119,7 @@ export const drinks: Drink[] = [
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/tra_dao_sa.jpg',
         materials: ['Trà đào 2 túi', 'Syrup đào 20ml', 'Syrup sả 30ml', 'Nước chanh 10ml', 'Sả tươi 3 cây', 'Nước sôi 60ml', 'Đào lon 1 miếng'],
-        steps: ['Ngâm trà', 'Cắt đào miếng nhỏ', 'Shaker toàn bộ', 'Decor'],
+        steps: ['Ngâm trà', 'Cắt đào miếng nhỏ', 'Sả cắt từng khúc nhỏ, đập qua', 'Shaker toàn bộ', 'Decor đào, sả đã cắt lên trên'],
         type: 'Trà',
         name: 'Trà đào sả',
     },
@@ -331,10 +331,10 @@ export const drinks: Drink[] = [
     {
         img: 'https://pizzacavicent.es/345-large_default/caipiroska-de-fresa.jpg',
         materials: ['Chanh 1 quả', 'Syrup chanh dây 30ml', 'Chanh dây 20ml (có hạt, tầm 1 quả)', 'Đường cát 2 muỗng', 'Soda', 'Rau húng'],
-        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly rồi cho đường cát vào dầm', 'Đập rau húng cho vào ly'
+        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly rồi cho đường cát vào dầm', 'Cho syrup và nước chanh dây vào', 'Đập rau húng cho vào ly'
             , 'Cho đá gần đầy ly, rót soda vào đầy ly rồi khuấy đều'],
         type: 'Virgin Mojito',
-        name: 'Virgin Pasion Mojito',
+        name: 'Virgin Passion Mojito',
     },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/virgin-strawberry-mojito.jpg',
@@ -357,7 +357,7 @@ export const drinks: Drink[] = [
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
         materials: ['Syrup strawbery (dâu) 30ml', 'Syrup bricot(mơ) 20 ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
-            , 'Cho chanh vào', 'Cho đá gần đầy ly -> rót soda vào đầy ly -> Decor bằng chanh'],
+            , 'Cho chanh vào', 'Cho đá gần đầy ly, rót soda vào đầy ly', 'Decor bằng chanh'],
         type: 'Italian Soda',
         name: 'Red sunset',
     },
@@ -365,7 +365,7 @@ export const drinks: Drink[] = [
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
         materials: ['Syrup blue curacao 30ml', 'Syrup blue passion (chanh dây) 20ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
-            , 'Cho chanh vào', 'Cho đá gần đầy ly -> rót soda vào đầy ly -> Decor bằng chanh'],
+            , 'Cho chanh vào', 'Cho đá gần đầy ly, rót soda vào đầy ly', 'Decor bằng chanh'],
         type: 'Italian Soda',
         name: 'Blue Ocen (Đại dương xanh)',
     },
@@ -373,7 +373,7 @@ export const drinks: Drink[] = [
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
         materials: ['Syrup strawbery (dâu) 25ml', 'Syrup blue curacao 25ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
-            , 'Cho chanh vào', 'Cho đá gần đầy ly -> rót soda vào đầy ly -> Decor bằng chanh'],
+            , 'Cho chanh vào', 'Cho đá gần đầy ly, rót soda vào đầy ly', 'Decor bằng chanh'],
         type: 'Italian Soda',
         name: 'Lover',
     },
