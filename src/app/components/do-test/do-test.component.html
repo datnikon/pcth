@@ -1,7 +1,7 @@
 <div *ngIf="isShowAllResult">
     <h1 class="txt-center" *ngIf="correctNumber == questions.length">🎈🎈 Quá tuyệt vời 🎈🎈</h1>
     <h1 class="txt-center">{{correctNumber}} / {{questions.length}}</h1>
-    <div class="action">
+    <div class="flex-center">
         <button *ngIf="correctNumber < questions.length" (click)="reset()">
             Làm lại</button>
         <a class="link-with-button" routerLink="/" routerLinkActive="router-link-active">
@@ -10,13 +10,13 @@
     </div>
 </div>
 <div *ngIf="!isShowAllResult" class="do-test-area">
-    <img *ngIf="questions[questionNumber].img" src="{{questions[questionNumber].img}}" alt="hHình ảnh câu hỏi"
+    <img *ngIf="questions[questionNumber].img" src="{{questions[questionNumber].img}}" alt="Hình ảnh câu hỏi"
         class="question-image">
     <h1>{{questionNumber + 1}}) {{questions[questionNumber].title}}</h1>
     <div class="answer" *ngFor="let item of answers; index as i">
         <input type="radio" id="{{i}}" name="selectAnswer" [disabled]="isShowResult"
-            (change)="handleChange(item.isCorrect)"> <label style="margin-left: 10px;"
-            for="{{i}}">{{item.title}}</label>
+            (change)="handleChange(item.isCorrect)">
+        <label for="{{i}}">{{item.title}}</label>
     </div>
     <p *ngIf="isShowResult" [ngClass]="{success: isCorrect}" class="incorrect">
         {{ isCorrect ? 'Tuyệt vời, trả lời đúng rồi nè' : 'Sai rồi nè, cố gắng học thêm nha' }}

@@ -17,6 +17,14 @@ p {
 .answer {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
+
+  input[type="radio"],
+  label {
+    cursor: pointer;
+  }
+  label {
+    margin-left: 0.5rem;
+  }
 }
 
 .question-image {
@@ -25,11 +33,6 @@ p {
 
 .txt-center {
   text-align: center;
-}
-
-.action {
-  display: flex;
-  justify-content: space-around;
 }
 
 .btn-exit {

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BaristaComponent } from './components/barista/barista.component';
 import { DoTestComponent } from './components/do-test/do-test.component';
 import { HomeComponent } from './components/home/home.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
@@ -21,7 +20,7 @@ const routes: Routes = [
   },
   {
     path: 'pha-che',
-    component: BaristaComponent
+    loadChildren: () => import('./barista.module').then(b => b.BaristaModule)
   },
   {
     path: '**',
