@@ -355,7 +355,7 @@ export const drinks: Drink[] = [
     // Italian Soda
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
-        materials: ['Syrup strawbery (dâu) 30ml', 'Syrup bricot (mơ) 20ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
+        materials: ['Syrup strawberry (dâu) 30ml', 'Syrup abricot 20ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
             , 'Cho chanh vào', 'Cho đá gần đầy ly, rót soda vào đầy ly', 'Decor bằng chanh'],
         type: 'Italian Soda',
@@ -371,7 +371,7 @@ export const drinks: Drink[] = [
     },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
-        materials: ['Syrup strawbery (dâu) 25ml', 'Syrup blue curacao 25ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
+        materials: ['Syrup strawberry (dâu) 25ml', 'Syrup blue curacao 25ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
             , 'Cho chanh vào', 'Cho đá gần đầy ly, rót soda vào đầy ly', 'Decor bằng chanh'],
         type: 'Italian Soda',
