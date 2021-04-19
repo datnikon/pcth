@@ -268,14 +268,14 @@ export const drinks: Drink[] = [
     // Lassi
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
-        materials: ['Xoài chín 1/2 quả (xoài chín gọt vỏ - xoài cát Hòa Lộc)', 'Sữa đặc 30ml, sữa rích 30ml', 'Mật ông 10ml', 'Lá bạc hà 9-10 lá', 'Sữa chua 50ml', 'Bột frag 10g'],
+        materials: ['Xoài chín 1/2 quả (xoài chín gọt vỏ - xoài cát Hòa Lộc)', 'Sữa đặc 30ml, sữa rích 30ml', 'Mật ông 10ml', 'Lá bạc hà 9-10 lá', 'Sữa chua 50ml', 'Bột frapp 10g'],
         steps: ['Sơ chế xoài, lấy 1/2 quả', 'Cho tất cả vào xay', 'Nếm thử', 'Trang trí lá bạc hà lên'],
         type: 'Lassi',
         name: 'Mango Lassi (xoài)',
     },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/default.jpg',
-        materials: ['Sốt bluebery 50ml', 'Sữa đặc 20ml', 'Mật ông 10ml', 'Lá bạc hà 9-10 lá', 'Sữa rích 30ml', 'Sữa chua 50ml', 'Bột frag 10g'],
+        materials: ['Sốt bluebery 50ml', 'Sữa đặc 20ml', 'Mật ông 10ml', 'Lá bạc hà 9-10 lá', 'Sữa rích 30ml', 'Sữa chua 50ml', 'Bột frapp 10g'],
         steps: ['Cho tất cả vào xay', 'Nếm thử', 'Trang trí lá bạc hà lên'],
         type: 'Lassi',
         name: 'Bluebery Lassi (phúc bồn tử)',
@@ -355,7 +355,7 @@ export const drinks: Drink[] = [
     // Italian Soda
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
-        materials: ['Syrup strawbery (dâu) 30ml', 'Syrup bricot(mơ) 20 ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
+        materials: ['Syrup strawbery (dâu) 30ml', 'Syrup bricot (mơ) 20ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
             , 'Cho chanh vào', 'Cho đá gần đầy ly, rót soda vào đầy ly', 'Decor bằng chanh'],
         type: 'Italian Soda',
@@ -363,7 +363,7 @@ export const drinks: Drink[] = [
     },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/soda_y.jpg',
-        materials: ['Syrup blue curacao 30ml', 'Syrup blue passion (chanh dây) 20ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
+        materials: ['Syrup blue curacao 30ml', 'Syrup passion (chanh dây) 20ml', 'Nước chanh 10ml', 'Soda', 'Ly viva/pocco/tiara'],
         steps: ['Cho 2 loại syrup vào ly'
             , 'Cho chanh vào', 'Cho đá gần đầy ly, rót soda vào đầy ly', 'Decor bằng chanh'],
         type: 'Italian Soda',
