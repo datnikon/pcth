@@ -3,7 +3,7 @@ p {
 }
 
 .do-test-area {
-  padding: 15px;
+  padding: 1rem;
 }
 
 .incorrect {
@@ -14,17 +14,13 @@ p {
   color: green;
 }
 
-button {
-  margin-right: 1rem;
-}
-
 .answer {
   font-size: 1.2rem;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 
 .question-image {
-  max-height: 300px;
+  max-height: 15rem;
 }
 
 .txt-center {
@@ -36,11 +32,9 @@ button {
   justify-content: space-around;
 }
 
-.link-with-button {
-  text-align: center;
-}
-button {
-  margin-top: 0.5rem;
+.btn-exit {
+  background-color: #e7e7e7;
+  color: black;
 }
 
 @media (max-width: 768px) {
@@ -49,6 +43,6 @@ button {
   }
 
   .question-image {
-    max-height: 200px;
+    max-height: 10rem;
   }
 }

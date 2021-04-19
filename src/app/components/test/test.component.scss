@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 100px);
   .course-select {
     min-width: 100%;
     display: flex;
@@ -11,14 +11,5 @@
   }
   .chose-test {
     text-align: center;
-  }
-
-  .update-infor {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  button {
-    margin: 0.5rem;
   }
 }
