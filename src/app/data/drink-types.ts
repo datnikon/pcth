@@ -5,15 +5,14 @@ export const drinkTypes: DrinkType[] = [
     //     type: 'Truyền thống',
     //     slug: 'truyen-thong'
     // },
-    // {
-    //     type: 'Cà phê máy',
-    //     slug: 'ca-phe-may'
-    // },
+    {
+        type: 'Cà phê máy',
+        slug: 'ca-phe-may'
+    },
     {
         type: 'Trà',
         slug: 'tra'
-    }
-    ,
+    },
     {
         type: 'Nước ép',
         slug: 'nuoc-ep'

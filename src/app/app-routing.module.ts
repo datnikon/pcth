@@ -10,7 +10,7 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'test',
+    path: 'kiem-tra',
     loadChildren: () => import('./modules/quiz.module').then(q => q.QuizModule)
   }
   ,

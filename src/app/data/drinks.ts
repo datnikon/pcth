@@ -44,6 +44,28 @@ export const drinks: Drink[] = [
     //     type: 'Truyền thống',
     //     name: 'Ca cao đá',
     // },
+    // Cà phê máy
+    {
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/mocaccino_da.jpg',
+        materials: ['Espresso 40ml', 'Chocolate dark 30ml', 'Sữa tươi 60ml', 'Kem'],
+        steps: ['Chọn ly đế hẹp, cho 30ml sốt vào', 'Cho đá bi gần đầy', 'Cho espresso, sữa vào', 'Cho ống hút, muỗng rồi xịt kem'],
+        type: 'Cà phê máy',
+        name: 'Mocaccino đá',
+    },
+    {
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/mocaccino_nong.jpg',
+        materials: ['Espresso 40ml', 'Chocolate dark 30ml', 'Sữa tươi 200ml', 'Kem'],
+        steps: ['Chọn ly Irish, cho 30ml sốt vào', 'Cho espresso vào', 'Đánh sữa rồi cho vào ly'],
+        type: 'Cà phê máy',
+        name: 'Mocaccino nóng',
+    },
+    {
+        img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/caramel_da.jpg',
+        materials: ['Espresso 40ml', 'Sốt caramel 30ml', 'Sữa tươi 60ml', 'Kem'],
+        steps: ['Chọn ly đế hẹp, cho 30ml sốt vào', 'Cho đá bi gần đầy', 'Cho espresso, sữa vào', 'Cho ống hút, muỗng rồi xịt kem'],
+        type: 'Cà phê máy',
+        name: 'Caramel macchiato',
+    },
     // Trà
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/lip_ton_chanh_da.jpg',
