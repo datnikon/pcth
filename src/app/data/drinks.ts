@@ -48,7 +48,7 @@ export const drinks: Drink[] = [
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/mocaccino_da.jpg',
         materials: ['Espresso 40ml', 'Chocolate dark 30ml', 'Sữa tươi 60ml', 'Kem'],
-        steps: ['Chọn ly đế hẹp, cho 30ml sốt vào', 'Cho đá bi gần đầy', 'Cho espresso, sữa vào', 'Cho ống hút, muỗng rồi xịt kem'],
+        steps: ['Chọn ly đế hẹp, cho 30ml sốt vào', 'Cho đá bi gần đầy', 'Cho sữa, espresso vào', 'Cho ống hút, muỗng rồi xịt kem'],
         type: 'Cà phê máy',
         name: 'Mocaccino đá',
     },
