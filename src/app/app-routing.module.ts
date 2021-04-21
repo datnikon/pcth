@@ -19,6 +19,10 @@ const routes: Routes = [
     loadChildren: () => import('./modules/barista.module').then(b => b.BaristaModule)
   },
   {
+    path: 'ly-thuyet',
+    loadChildren: () => import('./modules/theory.module').then(t => t.TheoryModule)
+  },
+  {
     path: '**',
     component: PageNotFoundComponent
   }
