@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-theory',
   template: `<div class="theory-content" style="padding: 0.5rem" [innerText]="theoryContent"></div>`
 })
-export class TheoryComponent implements OnInit {
+export class TheoryComponent {
   public theoryContent = `Lịch sử cà phê:
   - 1671 được anh chăn dê tên Kaldi vùng Kaffa (ethiopia ngày nay) phát hiện
   - 1857 Tu sĩ người Pháp mang hạt Arabica vào trồng ở nhà thờ Hà Nam, Quảng Bình
@@ -13,7 +13,7 @@ export class TheoryComponent implements OnInit {
 
   Các loại hạt:
   - Arabica (cà phê chè):
-  + Hạt dài, dẹp, công
+  + Hạt dài, dẹp, cong
   + Vị chua hậu ngọt
   + Cafein thấp (0.9 -> 1.4%)
   + Thơm
@@ -33,9 +33,9 @@ export class TheoryComponent implements OnInit {
   Culi: hạt đột biến của Arabica (culy A) và Robusta (Culy Rô)
 
   Syrup (si rô): là một chất lỏng đậm đặc được làm ra từ đường, nước và các chất phụ gia khác dùng để làm nguyên liêu pha chế, có nhiều vị khác nhau.
-  Các hãng syrup: Monin (từ Pháp, có nhiều loại nhất), Torani (từ Mỹ, do 2 người Ý sáng tạo, Davinci (từ Úc), Teisseire (từ Pháp)
+  Các hãng syrup: Monin (từ Pháp, có nhiều loại nhất), Torani (từ Mỹ, do 2 người Ý sáng tạo), Davinci (từ Úc), Teisseire (từ Pháp)
 
-  Liqueure (rượu mùi): là một loại thức uống có cồn được chưng cất, cho thêm những vị trái cây, kem, dược thảo, gia vị, bông hoa hay các loại hạch, có thêm đường hoặc các chất tạo ra vị ngọt. Là thức uống cũng là nguyên liệu để pha chế cocktail.Độ cồn 15-60%, có 2 loại chính theo độ ngọt, độ cồn.
+  Liqueure (rượu mùi): là một loại thức uống có cồn được chưng cất, cho thêm những vị trái cây, kem, dược thảo, gia vị, bông hoa hay các loại hạch, có thêm đường hoặc các chất tạo ra vị ngọt. Là thức uống cũng là nguyên liệu để pha chế cocktail.Độ cồn 15-60%, chia thành 2 loại chính theo độ ngọt, độ cồn.
 
   Spirit: Là một loại rượu mạnh, được lên men từ trái cây và ngũ cốc, có độ cồn từ 40 -50%. Gồm các loại: Whisky (lên men từ ngũ cốc độ cồn 40-45%), Brandy (lên men từ trái cây), Vodka, Rhum (độ cồn 40%), Tequila (độ cồn 40%), Gin (độ cồn 40-43%).
 
@@ -78,13 +78,10 @@ export class TheoryComponent implements OnInit {
   - Đa tầng 140ml/ly
 
   Sinh tố
-  - Nguyên liệu: Trái cây, sữa đặc, sữa tươi, nước đường, phụ gia
   - Có 3 loại: Béo (Không bột phụ gia), Ngọt (cho hoặc không cho), chua (cho phụ gia)
   - Dâu thì thêm mứt hoặc syrup
 
-  Lassi: có nguồn gốc từ ấn độ
-
-  Yoghurt: Gồm sữa chua 1 hộp, trái cây,...
+  Lassi: có nguồn gốc từ Ấn Độ
 
   Số đa Ý: Nguồn gốc từ Mỹ (2 anh em người Ý sáng tạo ra Syrup Torani)
 
@@ -96,19 +93,16 @@ export class TheoryComponent implements OnInit {
   - Để khăn lau vòi sữa trên máy (không để dưới sàn)
   - Giới thiệu ấn tượng, vui vẻ khi làm
   - Cắt decor trước
+  - Dọn sạch sau khi làm
 
   Ôn công thức và cách làm các món trong đề cương tại: http://pcth.datnikon.com/pha-che
-  Làm bài kiểm tra lsy thuyết tại: http://pcth.datnikon.com/kiem-tra
+  Làm bài kiểm tra lý thuyết tại: http://pcth.datnikon.com/kiem-tra
   Ôn kiến thức pha chế: http://pcth.datnikon.com
 
   Chúc mọi người thi tốt, cố lên nhé!
   [From Đạt with s2]
 
-  Note: Website có nội dung gì chưa đúng thì imbox Đạt cập nhật lại với nhé. Fb: https://www.facebook.com/datnikon/
+  Note: Có nội dung gì không đúng thì inbox Đạt sửa với lại nhé. Fb: https://www.facebook.com/datnikon/ (hoặc nhấn vào chữ Đạt ở cuối mỗi trang)
   `;
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
