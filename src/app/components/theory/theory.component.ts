@@ -97,6 +97,7 @@ export class TheoryComponent {
   - Để khăn lau vòi sữa trên máy (không để dưới sàn)
   - Giới thiệu ấn tượng, vui vẻ khi làm
   - Cắt decor trước
+  - Dọn sạch sau khi hoàn thành bài thi
 
   Ôn công thức và cách làm các món trong đề cương tại: http://pcth.datnikon.com/pha-che
   Làm bài kiểm tra lsy thuyết tại: http://pcth.datnikon.com/kiem-tra
@@ -104,6 +105,6 @@ export class TheoryComponent {
 
   Chúc mọi người thi tốt, cố lên nhé!
 
-  Note: Website có nội dung gì chưa đúng thì imbox Đạt cập nhật lại với nhé. Fb: https://www.facebook.com/datnikon/
+  Note: Website có nội dung gì chưa đúng thì inbox Đạt cập nhật lại với nhé. Fb (Đạt Phan): https://www.facebook.com/datnikon/ (hoặc nhấn vào chữ Đạt ở mỗi cuối trang)
   `;
 }
