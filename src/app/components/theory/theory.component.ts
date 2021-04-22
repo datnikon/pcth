@@ -49,6 +49,18 @@ export class TheoryComponent {
   Cà phê máy
   - Espresso là một loại thức uống được làm ra nhờ vào một áp lực nước cho chảy qua một lượng cà phê với độ mịn phù hợp để chiết xuất hết mùi vị cà phê (Sản phẩm dùng liền sau khi chế biến).
 
+  Quy trình đánh Sữa
+  + Làm lạnh ca đánh sữa
+  + Rót 220-250ml sữa thanh trùng vào ca
+  + Xả hơi nước
+  + Đặt vòi đánh sữa sâu 1cm dưới bề mặt sữa
+  + Mở van cần đánh sữa, sau chạm tay vào ca sữa để cảm nhận nhiệt độ
+  + Hạ ca đánh sữa từ từ xuống 1cm đến khi nge tiếng rít
+  + Nhìn lượng bọt sữa trong ca được dâng lên như yêu cầu
+  + Giữ nguyên tay đánh sữa đến khi bọt sữa đạt nhiệt độ khoảng 65-70 độ thì khóa vòi đánh sữa
+  + Vệ sinh vòi đánh sữa
+  + Gõ nhẹ ca sữa đã đánh xuống bàn, xoay tròn để tán bọt sữa va vào thành ca cho mịn và sánh lại
+
   Yếu tố tạo ra một ly espressco hoàn hảo:
   + Chọn hạt cà phê phù hợp với đối tượng khách hàng
   + Kiểm tra hạt cà phê có màu đều, bóng, kích thước đồng đều, hạt cứng, chắc.
