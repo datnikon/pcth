@@ -1,10 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-theory',
-  template: `<div class="theory-content" style="padding: 0.5rem" [innerText]="theoryContent"></div>`
+  template: `<div class="theory-content" style="padding: 0.5rem" [innerText]="theoryContent"></div>
+  <app-scroll-to-top></app-scroll-to-top>`
 })
-export class TheoryComponent implements OnInit {
+export class TheoryComponent {
   public theoryContent = `Lịch sử cà phê:
   - 1671 được anh chăn dê tên Kaldi vùng Kaffa (ethiopia ngày nay) phát hiện
   - 1857 Tu sĩ người Pháp mang hạt Arabica vào trồng ở nhà thờ Hà Nam, Quảng Bình
@@ -35,9 +36,9 @@ export class TheoryComponent implements OnInit {
   Syrup (si rô): là một chất lỏng đậm đặc được làm ra từ đường, nước và các chất phụ gia khác dùng để làm nguyên liêu pha chế, có nhiều vị khác nhau.
   Các hãng syrup: Monin (từ Pháp, có nhiều loại nhất), Torani (từ Mỹ, do 2 người Ý sáng tạo, Davinci (từ Úc), Teisseire (từ Pháp)
 
-  Liqueure (rượu mùi): là một loại thức uống có cồn được chưng cất, cho thêm những vị trái cây, kem, dược thảo, gia vị, bông hoa hay các loại hạch, có thêm đường hoặc các chất tạo ra vị ngọt. Là thức uống cũng là nguyên liệu để pha chế cocktail.Độ cồn 15-60%, có 2 loại chính theo độ ngọt, độ cồn.
+  Liqueure (rượu mùi): là một loại thức uống có cồn được chưng cất, cho thêm những vị trái cây, kem, dược thảo, gia vị, bông hoa hay các loại hạch, có thêm đường hoặc các chất tạo ra vị ngọt. Là thức uống cũng là nguyên liệu để pha chế cocktail. Độ cồn 15-60%, có 2 loại chính theo độ ngọt, độ cồn.
 
-  Spirit: Là một loại rượu mạnh, được lên men từ trái cây và ngũ cốc, có độ cồn từ 40 -50%. Gồm các loại: Whisky (lên men từ ngũ cốc độ cồn 40-45%), Brandy (lên men từ trái cây), Vodka, Rhum (độ cồn 40%), Tequila (độ cồn 40%), Gin (độ cồn 40-43%).
+  Spirit: Là một loại rượu mạnh, được lên men từ trái cây và ngũ cốc, có độ cồn từ 40 -50%. Gồm các loại: Whisky (lên men từ ngũ cốc, độ cồn 40-45%), Brandy (lên men từ trái cây), Vodka, Rhum (độ cồn 40%), Tequila (độ cồn 40%), Gin (độ cồn 40-43%).
 
   Yếu tố làm nên ly cà phê truyền thống ngon
   + Chọn cà phê thơm, đậm, có hậu vị
@@ -102,13 +103,7 @@ export class TheoryComponent implements OnInit {
   Ôn kiến thức pha chế: http://pcth.datnikon.com
 
   Chúc mọi người thi tốt, cố lên nhé!
-  [From Đạt with s2]
 
   Note: Website có nội dung gì chưa đúng thì imbox Đạt cập nhật lại với nhé. Fb: https://www.facebook.com/datnikon/
   `;
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

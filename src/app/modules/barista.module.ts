@@ -5,7 +5,7 @@ import { BaristaComponent } from '../components/barista/barista.component';
 import { DrinkComponent } from '../components/drink/drink.component';
 import { DrinksComponent } from '../components/drinks/drinks.component';
 import { RecipeComponent } from '../components/recipe/recipe.component';
-import { ScrollToTopComponent } from '../components/scroll-to-top/scroll-to-top.component';
+import { ShareModule } from './share.module';
 
 const baristaRoters: Routes = [
     {
@@ -19,10 +19,9 @@ const baristaRoters: Routes = [
         BaristaComponent,
         DrinksComponent,
         RecipeComponent,
-        ScrollToTopComponent,
         DrinkComponent,
     ],
-    imports: [CommonModule, RouterModule.forChild(baristaRoters)],
+    imports: [CommonModule, RouterModule.forChild(baristaRoters), ShareModule],
     exports: [RouterModule]
 
 })
