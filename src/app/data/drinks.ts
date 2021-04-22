@@ -140,7 +140,7 @@ export const drinks: Drink[] = [
     // },
     {
         img: 'https://pcth.s3-ap-southeast-1.amazonaws.com/drinks/tra_dao_sa.jpg',
-        materials: ['Trà đào 2 túi', 'Syrup đào 20ml', 'Syrup sả 30ml', 'Nước chanh 10ml', 'Sả tươi 3 cây', 'Nước sôi 60ml', 'Đào lon 1 miếng'],
+        materials: ['Trà đào 2 túi', 'Syrup đào 20ml', 'Syrup sả 30ml', 'Nước chanh 10ml', 'Nước sôi 60ml', 'Đào lon 1 miếng, sả tươi 3 cây'],
         steps: ['Ngâm trà', 'Cắt đào miếng nhỏ', 'Sả cắt từng khúc nhỏ, đập qua', 'Shaker toàn bộ', 'Decor đào, sả đã cắt lên trên'],
         type: 'Trà',
         name: 'Trà đào sả',
@@ -352,9 +352,9 @@ export const drinks: Drink[] = [
     },
     {
         img: 'https://pizzacavicent.es/345-large_default/caipiroska-de-fresa.jpg',
-        materials: ['Chanh 1 quả', 'Syrup chanh dây 30ml', 'Chanh dây 20ml (có hạt, tầm 1 quả)', 'Đường cát 2 muỗng', 'Soda', 'Rau húng'],
-        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly rồi cho đường cát vào dầm', 'Cho syrup và nước chanh dây vào', 'Đập rau húng cho vào ly'
-            , 'Cho đá gần đầy ly, rót soda vào đầy ly rồi khuấy đều'],
+        materials: ['Chanh 1 quả', 'Syrup chanh dây 30ml', 'Chanh dây 20ml (có hạt)', 'Đường cát 2 muỗng', 'Soda, Rau húng'],
+        steps: ['Chọn chanh vỏ mỏng cắt làm 4', 'Cho chanh đã cắt vào ly rồi cho đường cát vào dầm', 'Cho syrup, nước chanh dây vào',
+            'Cho đá gần đầy ly, rót soda vào đầy ly rồi khuấy đều'],
         type: 'Virgin Mojito',
         name: 'Virgin Passion Mojito',
     },
