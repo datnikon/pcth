@@ -34,7 +34,7 @@ export class TheoryComponent {
   Culi: hạt đột biến của Arabica (culy A) và Robusta (Culy Rô)
 
   Syrup (si rô): là một chất lỏng đậm đặc được làm ra từ đường, nước và các chất phụ gia khác dùng để làm nguyên liêu pha chế, có nhiều vị khác nhau.
-  Các hãng syrup: Monin (từ Pháp, có nhiều loại nhất), Torani (từ Mỹ, do 2 người Ý sáng tạo, Davinci (từ Úc), Teisseire (từ Pháp)
+  Các hãng syrup: Monin (từ Pháp, có nhiều loại nhất), Torani (từ Mỹ, do 2 người Ý sáng tạo ra công thức), Davinci (từ Úc), Teisseire (từ Pháp)
 
   Liqueure (rượu mùi): là một loại thức uống có cồn được chưng cất, cho thêm những vị trái cây, kem, dược thảo, gia vị, bông hoa hay các loại hạch, có thêm đường hoặc các chất tạo ra vị ngọt. Là thức uống cũng là nguyên liệu để pha chế cocktail. Độ cồn 15-60%, có 2 loại chính theo độ ngọt, độ cồn.
 
@@ -42,9 +42,9 @@ export class TheoryComponent {
 
   Yếu tố làm nên ly cà phê truyền thống ngon
   + Chọn cà phê thơm, đậm, có hậu vị
-  + Trộn hạt với tỉ lệ thích hợp
+  + Trộn cà phê với tỷ lệ thích hợp
   + Ủ (phin nhôm, 20ml nước sôi (trên 10ml, dưới 10ml), 22-25g/phin)
-  + Chế (6-7 phút và không quá 4h, chế 50 ml, nhiệt độ nước 90-96 độ C)
+  + Chế (thời gian chế 6-7 phút, không để cà phê quá 4h, chế dùng 50 ml nước, nhiệt độ nước 90-96 độ C)
 
   Cà phê máy
   - Espresso là một loại thức uống được làm ra nhờ vào một áp lực nước cho chảy qua một lượng cà phê với độ mịn phù hợp để chiết xuất hết mùi vị cà phê (Sản phẩm dùng liền sau khi chế biến).
@@ -100,7 +100,7 @@ export class TheoryComponent {
   - Dọn sạch sau khi hoàn thành bài thi
 
   Ôn công thức và cách làm các món trong đề cương tại: http://pcth.datnikon.com/pha-che
-  Làm bài kiểm tra lsy thuyết tại: http://pcth.datnikon.com/kiem-tra
+  Làm bài kiểm tra lý thuyết tại: http://pcth.datnikon.com/kiem-tra
   Ôn kiến thức pha chế: http://pcth.datnikon.com
 
   Chúc mọi người thi tốt, cố lên nhé!
