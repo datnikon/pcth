@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-theory',
-  template: `<div class="theory-content" style="padding: 0.5rem" [innerText]="theoryContent"></div>`
+  template: `<div class="theory-content" style="padding: 0.5rem" [innerText]="theoryContent"></div>
+  <app-scroll-to-top></app-scroll-to-top>`
 })
 export class TheoryComponent {
   public theoryContent = `Lịch sử cà phê:
@@ -33,20 +34,32 @@ export class TheoryComponent {
   Culi: hạt đột biến của Arabica (culy A) và Robusta (Culy Rô)
 
   Syrup (si rô): là một chất lỏng đậm đặc được làm ra từ đường, nước và các chất phụ gia khác dùng để làm nguyên liêu pha chế, có nhiều vị khác nhau.
-  Các hãng syrup: Monin (từ Pháp, có nhiều loại nhất), Torani (từ Mỹ, do 2 người Ý sáng tạo), Davinci (từ Úc), Teisseire (từ Pháp)
+  Các hãng syrup: Monin (từ Pháp, có nhiều loại nhất), Torani (từ Mỹ, do 2 người Ý sáng tạo ra công thức), Davinci (từ Úc), Teisseire (từ Pháp)
 
-  Liqueure (rượu mùi): là một loại thức uống có cồn được chưng cất, cho thêm những vị trái cây, kem, dược thảo, gia vị, bông hoa hay các loại hạch, có thêm đường hoặc các chất tạo ra vị ngọt. Là thức uống cũng là nguyên liệu để pha chế cocktail.Độ cồn 15-60%, chia thành 2 loại chính theo độ ngọt, độ cồn.
+  Liqueure (rượu mùi): là một loại thức uống có cồn được chưng cất, cho thêm những vị trái cây, kem, dược thảo, gia vị, bông hoa hay các loại hạch, có thêm đường hoặc các chất tạo ra vị ngọt. Là thức uống cũng là nguyên liệu để pha chế cocktail. Độ cồn 15-60%, có 2 loại chính theo độ ngọt, độ cồn.
 
-  Spirit: Là một loại rượu mạnh, được lên men từ trái cây và ngũ cốc, có độ cồn từ 40 -50%. Gồm các loại: Whisky (lên men từ ngũ cốc độ cồn 40-45%), Brandy (lên men từ trái cây), Vodka, Rhum (độ cồn 40%), Tequila (độ cồn 40%), Gin (độ cồn 40-43%).
+  Spirit: Là một loại rượu mạnh, được lên men từ trái cây và ngũ cốc, có độ cồn từ 40 -50%. Gồm các loại: Whisky (lên men từ ngũ cốc, độ cồn 40-45%), Brandy (lên men từ trái cây), Vodka, Rhum (độ cồn 40%), Tequila (độ cồn 40%), Gin (độ cồn 40-43%).
 
   Yếu tố làm nên ly cà phê truyền thống ngon
   + Chọn cà phê thơm, đậm, có hậu vị
-  + Trộn hạt với tỉ lệ thích hợp
+  + Trộn cà phê với tỷ lệ thích hợp
   + Ủ (phin nhôm, 20ml nước sôi (trên 10ml, dưới 10ml), 22-25g/phin)
-  + Chế (6-7 phút và không quá 4h, chế 50 ml, nhiệt độ nước 90-96 độ C)
+  + Chế (thời gian chế 6-7 phút, không để cà phê quá 4h, chế dùng 50 ml nước, nhiệt độ nước 90-96 độ C)
 
   Cà phê máy
   - Espresso là một loại thức uống được làm ra nhờ vào một áp lực nước cho chảy qua một lượng cà phê với độ mịn phù hợp để chiết xuất hết mùi vị cà phê (Sản phẩm dùng liền sau khi chế biến).
+
+  Quy trình đánh Sữa
+  + Làm lạnh ca đánh sữa
+  + Rót 220-250ml sữa thanh trùng vào ca
+  + Xả hơi nước
+  + Đặt vòi đánh sữa sâu 1cm dưới bề mặt sữa
+  + Mở van cần đánh sữa, sau chạm tay vào ca sữa để cảm nhận nhiệt độ
+  + Hạ ca đánh sữa từ từ xuống 1cm đến khi nge tiếng rít
+  + Nhìn lượng bọt sữa trong ca được dâng lên như yêu cầu
+  + Giữ nguyên tay đánh sữa đến khi bọt sữa đạt nhiệt độ khoảng 65-70 độ thì khóa vòi đánh sữa
+  + Vệ sinh vòi đánh sữa
+  + Gõ nhẹ ca sữa đã đánh xuống bàn, xoay tròn để tán bọt sữa va vào thành ca cho mịn và sánh lại
 
   Yếu tố tạo ra một ly espressco hoàn hảo:
   + Chọn hạt cà phê phù hợp với đối tượng khách hàng
@@ -93,16 +106,14 @@ export class TheoryComponent {
   - Để khăn lau vòi sữa trên máy (không để dưới sàn)
   - Giới thiệu ấn tượng, vui vẻ khi làm
   - Cắt decor trước
-  - Dọn sạch sau khi làm
+  - Dọn sạch sau khi hoàn thành bài thi
 
   Ôn công thức và cách làm các món trong đề cương tại: http://pcth.datnikon.com/pha-che
   Làm bài kiểm tra lý thuyết tại: http://pcth.datnikon.com/kiem-tra
   Ôn kiến thức pha chế: http://pcth.datnikon.com
 
   Chúc mọi người thi tốt, cố lên nhé!
-  [From Đạt with s2]
 
-  Note: Có nội dung gì không đúng thì inbox Đạt sửa với lại nhé. Fb: https://www.facebook.com/datnikon/ (hoặc nhấn vào chữ Đạt ở cuối mỗi trang)
+  Note: Website có nội dung gì chưa đúng thì inbox Đạt cập nhật lại với nhé. Fb (Đạt Phan): https://www.facebook.com/datnikon/ (hoặc nhấn vào chữ Đạt ở mỗi cuối trang)
   `;
-
 }
