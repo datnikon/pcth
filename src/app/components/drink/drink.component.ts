@@ -11,11 +11,11 @@ import { Drink } from 'src/app/models/drink';
       'enterAnimation', [
       transition(':enter', [
         style({ transform: 'scale(0)', opacity: 0 }),
-        animate('400ms', style({ transform: 'scale(1)', opacity: 1 }))
+        animate('300ms', style({ transform: 'scale(1)', opacity: 1 }))
       ]),
       transition(':leave', [
         style({ transform: 'scale(1)', opacity: 1 }),
-        animate('400ms', style({ transform: 'scale(0)', opacity: 0 }))
+        animate('300ms', style({ transform: 'scale(0)', opacity: 0 }))
       ])
     ]
     )
