@@ -5,5 +5,7 @@
     <div class="flex-center">
         <img [src]="drink.img" [alt]="drink.name" class="drink-img" loading="lazy">
     </div>
-    <app-recipe *ngIf="isShowRecipe" [drink]="drink"></app-recipe>
+    <div *ngIf="isShowRecipe" [@enterAnimation]>
+        <app-recipe [drink]="drink"></app-recipe>
+    </div>
 </div>
